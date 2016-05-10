@@ -1,0 +1,206 @@
+﻿Log file open, 05/09/16 14:10:45
+LogInit:Display: Running engine for game: Otherworld
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(847924617) SRandInit(847924619).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.089735
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.09-18.10.46:208][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-18.10.46:209][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.09-18.10.46:218][  0]LogInit: Computer: MONICA
+[2016.05.09-18.10.46:219][  0]LogInit: User: Matt
+[2016.05.09-18.10.46:219][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.09-18.10.46:219][  0]LogInit: High frequency timer resolution =3.906202 MHz
+[2016.05.09-18.10.46:219][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.09-18.10.46:219][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.09-18.10.46:219][  0]LogMemory: Process Physical Memory: 314.33 MB used, 314.33 MB peak
+[2016.05.09-18.10.46:219][  0]LogMemory: Process Virtual Memory: 314.84 MB used, 314.84 MB peak
+[2016.05.09-18.10.46:219][  0]LogMemory: Physical Memory: 4901.68 MB used, 16330.44 MB total
+[2016.05.09-18.10.46:219][  0]LogMemory: Virtual Memory: 653.25 MB used, 134217728.00 MB total
+[2016.05.09-18.10.46:282][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.09-18.10.46:779][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.09-18.10.46:822][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.05.09-18.10.46:822][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 2 output[s]
+[2016.05.09-18.10.46:826][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.09-18.10.46:826][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 0 output[s]
+[2016.05.09-18.10.46:826][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.09-18.10.46:835][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.09-18.10.46:835][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.05.09-18.10.46:835][  0]LogD3D11RHI:   Driver Version: 10.18.13.6200 (internal 10.18.13.6200)
+[2016.05.09-18.10.46:835][  0]LogD3D11RHI:      Driver Date: 2-23-2016
+[2016.05.09-18.10.46:835][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.09-18.10.46:856][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.09-18.10.46:878][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Intermediate/Shaders/WorkingDirectory/7012/).
+[2016.05.09-18.10.46:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/0611713A4B2B6470B1E867BFF9E1631C/'.
+[2016.05.09-18.10.46:878][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.09-18.10.48:867][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.09-18.10.48:874][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.09-18.10.48:880][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.09-18.10.48:886][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.09-18.10.48:894][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.09-18.10.48:900][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.09-18.10.48:906][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.09-18.10.48:911][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.09-18.10.48:917][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.09-18.10.48:923][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.09-18.10.48:930][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.09-18.10.48:942][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.09-18.10.48:942][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.09-18.10.48:945][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.09-18.10.48:970][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.09-18.10.48:974][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.09-18.10.48:980][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.09-18.10.48:986][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.09-18.10.48:994][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.09-18.10.48:994][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.09-18.10.49:137][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.09-18.10.49:383][  0]LogDerivedDataCache: Loaded boot cache 0.25s 46MB C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-18.10.49:383][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.09-18.10.49:383][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.09-18.10.49:383][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.09-18.10.49:383][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.09-18.10.49:383][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.09-18.10.49:403][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.09-18.10.49:415][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.09-18.10.50:146][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-18.10.50:148][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.09-18.10.50:219][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.09-18.10.50:386][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.09-18.10.50:386][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.09-18.10.50:386][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.09-18.10.50:799][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.09-18.10.50:800][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.09-18.10.50:800][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.09-18.10.50:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.09-18.10.51:078][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-18.10.51:078][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-18.10.51:340][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-18.10.51:340][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-18.10.51:340][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-18.10.51:340][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-18.10.51:340][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-18.10.51:340][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-18.10.52:624][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.09-18.10.52:777][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.05.09-18.10.53:027][  0]SourceControl: Info Source control is disabled
+[2016.05.09-18.10.53:130][  0]SourceControl: Info Source control is disabled
+[2016.05.09-18.10.53:153][  0]SourceControl: Info Source control is disabled
+[2016.05.09-18.10.53:171][  0]SourceControl: Info Source control is disabled
+[2016.05.09-18.10.53:379][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.09-18.10.53:513][  0]LogEngine: Initializing Engine...
+[2016.05.09-18.10.53:693][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.09-18.10.53:714][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-18.10.53:736][  0]LogInit: FAudioDevice initialized.
+[2016.05.09-18.10.53:788][  0]LogDerivedDataCache: Saved boot cache 0.05s 46MB C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-18.10.53:808][  0]LogInit: Texture streaming: Enabled
+[2016.05.09-18.10.53:847][  0]LogInit: Transaction tracking system initialized
+[2016.05.09-18.10.53:899][  0]BlueprintLog: New page: Editor Load
+[2016.05.09-18.10.54:116][  0]LocalizationService: Info Localization service is disabled
+[2016.05.09-18.10.54:412][  0]LogConsoleResponse:Display: 
+[2016.05.09-18.10.54:553][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.09-18.10.54:553][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.09-18.10.54:553][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.09-18.10.54:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Content/' took 0.01s
+[2016.05.09-18.10.54:634][  0]SourceControl: Info Source control is disabled
+[2016.05.09-18.10.54:634][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-18.10.54:635][  0]LightingResults: New page: Lighting Build
+[2016.05.09-18.10.54:639][  0]MapCheck: New page: Map Check
+[2016.05.09-18.10.54:639][  0]LightingResults: New page: Lighting Build
+[2016.05.09-18.10.54:739][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Actors/Pickup.Pickup_C:ItemData'. Unknown structure.
+[2016.05.09-18.10.54:740][  0]LogClass:Warning: Property ItemData of Pickup_C has a struct type mismatch (tag STRUCT_REINST_ItemData_20 != prop FallbackStruct) in package:  ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/Actors/Pickup.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-18.10.54:745][  0]LogClass:Warning: Property ItemData of Pickup_C has a struct type mismatch (tag FallbackStruct != prop ItemData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-18.10.54:777][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:AddToInventory.ItemData'. Unknown structure.
+[2016.05.09-18.10.54:781][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Inventory.Inventory'. Unknown structure.
+[2016.05.09-18.10.54:827][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/UserInterface/Widgets/Inventory.Inventory_C:Refresh.CallFunc_Array_Get_Item'. Unknown structure.
+[2016.05.09-18.10.54:827][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/UserInterface/Widgets/Inventory.Inventory_C:FocusedItemData'. Unknown structure.
+[2016.05.09-18.10.54:829][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/UserInterface/Widgets/InventoryItem.InventoryItem_C:ItemData'. Unknown structure.
+[2016.05.09-18.10.54:859][  0]LogClass:Warning: Property ItemData of InventoryItem_C has a struct type mismatch (tag STRUCT_REINST_ItemData_20 != prop FallbackStruct) in package:  ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryItem.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-18.10.54:872][  0]LogClass:Warning: Property ItemData of InventoryItem_C has a struct type mismatch (tag FallbackStruct != prop ItemData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-18.10.54:944][  0]LogClass:Warning: Property FocusedItemData of Inventory_C has a struct type mismatch (tag STRUCT_REINST_ItemData_20 != prop FallbackStruct) in package:  ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/Inventory.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-18.10.54:961][  0]LogClass:Warning: Property FocusedItemData of Inventory_C has a struct type mismatch (tag FallbackStruct != prop ItemData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-18.10.55:705][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-18.10.55:722][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-18.10.55:722][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-18.10.55:799][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.418ms to complete.
+[2016.05.09-18.10.55:799][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.165
+[2016.05.09-18.10.55:957][  0]LogCollectionManager: Loaded 0 collections in 0.002499 seconds
+[2016.05.09-18.10.56:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Saved/Collections/' took 0.01s
+[2016.05.09-18.10.56:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Content/Developers/Matt/Collections/' took 0.01s
+[2016.05.09-18.10.56:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Content/Collections/' took 0.01s
+[2016.05.09-18.10.56:004][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.09-18.10.56:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 1980 classes and 345 folders.
+[2016.05.09-18.10.56:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.09-18.10.56:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.09-18.10.56:019][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.05.09-18.10.56:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.09-18.10.56:035][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.09-18.10.56:178][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.09-18.10.56:264][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.09-18.10.56:272][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.09-18.10.56:300][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.09-18.10.56:300][  0]LogLoad: Full Startup: 11.11 seconds (BP compile: 0.29 seconds)
+[2016.05.09-18.10.56:300][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.09-18.10.56:300][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.09-18.10.56:309][  0]LogOcInput: OculusInput pre-init called
+[2016.05.09-18.10.56:357][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.09-18.10.56:534][  0]LogRenderer: Reallocating scene render targets to support 968x408 (Frame:2).
+[2016.05.09-18.10.56:717][  1]LogAssetRegistry: Asset discovery search completed in 3.9613 seconds
+[2016.05.09-18.10.56:717][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.09-18.10.56:717][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2016.05.09-18.12.08:097][547]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matt\Documents\coins.png)
+[2016.05.09-18.12.08:105][547]LogTexture:Display: Building textures: coins (AutoDXT)
+[2016.05.09-18.12.09:680][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UserInterface/Images/Icons/coins" FILE="../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Images/Icons/coins.uasset" SILENT=true
+[2016.05.09-18.12.09:688][616]LogSavePackage: Save=6.99ms
+[2016.05.09-18.12.09:688][616]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/coinsD345B83E49FCB8D75FEF4A9D0ECDAE77.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Images/Icons/coins.uasset'
+[2016.05.09-18.12.09:692][616]LogSavePackage: Total save time: 11.05ms
+[2016.05.09-18.12.09:692][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Images/Icons/coins.uasset
+[2016.05.09-18.12.45:893][700]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ItemInformationPane_C_0' or package '/Engine/Transient'.
+[2016.05.09-18.12.45:894][700]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ItemInformationPane_C_1' or package '/Engine/Transient'.
+[2016.05.09-18.12.45:894][700]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ItemInformationPane' or package '/Game/UserInterface/Widgets/Inventory'.
+[2016.05.09-18.12.45:894][700]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ItemInformationPane_C_23' or package '/Engine/Transient'.
+[2016.05.09-18.12.45:894][700]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_ItemInformationPane_C_22' or package '/Engine/Transient'.
+[2016.05.09-18.12.48:856][977]LogSavePackage: Save=112.01ms
+[2016.05.09-18.12.48:856][977]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplay1F613A854266F3DBE5B311A599CA1698.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-18.12.48:860][977]LogSavePackage: Total save time: 131.59ms
+[2016.05.09-18.12.48:860][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-18.12.48:874][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UserInterface/Widgets/MenuFrame" FILE="../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/MenuFrame.uasset" SILENT=true
+[2016.05.09-18.12.48:910][977]LogSavePackage: Save=23.57ms
+[2016.05.09-18.12.48:910][977]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/MenuFrameC478F72D47C565D2C9B97C8B017BADB0.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/MenuFrame.uasset'
+[2016.05.09-18.12.48:914][977]LogSavePackage: Total save time: 38.44ms
+[2016.05.09-18.12.48:914][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/MenuFrame.uasset
+[2016.05.09-18.12.48:922][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UserInterface/Widgets/Inventory" FILE="../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/Inventory.uasset" SILENT=true
+[2016.05.09-18.12.49:018][977]LogSavePackage: Save=82.23ms
+[2016.05.09-18.12.49:018][977]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/Inventory862543404B968BB6EEE1128640DF9E92.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/Inventory.uasset'
+[2016.05.09-18.12.49:022][977]LogSavePackage: Total save time: 97.64ms
+[2016.05.09-18.12.49:022][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/Inventory.uasset
+[2016.05.09-18.12.50:052][ 46]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 108 classes and 0 folders.
+[2016.05.09-18.13.36:488][394]LogUObjectHash:Warning: Ambiguous search, could be UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree_33.UniformGridPanel_2 or UniformGridPanel /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree.Menu.WidgetTree.Inventory.WidgetTree.UniformGridPanel_2
+[2016.05.09-18.13.36:488][394]LogUObjectHash:Warning: Ambiguous search, could be UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree_33.UniformGridPanel_2 or UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree.UniformGridPanel_2
+[2016.05.09-18.13.36:488][394]LogUObjectHash:Warning: Ambiguous search, could be UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree_33.UniformGridPanel_2 or UniformGridPanel /Game/UserInterface/Widgets/MenuFrame.MenuFrame_C:WidgetTree.Inventory.WidgetTree.UniformGridPanel_2
+[2016.05.09-18.13.36:488][394]LogUObjectHash:Warning: Ambiguous search, could be UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree_33.UniformGridPanel_2 or UniformGridPanel /Engine/Transient.World_3:Inventory_C_0.WidgetTree_33.UniformGridPanel_2
+[2016.05.09-18.13.36:488][394]LogUObjectHash:Warning: Ambiguous search, could be UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree_33.UniformGridPanel_2 or UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree_34.UniformGridPanel_2
+[2016.05.09-18.13.36:488][394]LogUObjectHash:Warning: Ambiguous search, could be UniformGridPanel /Game/UserInterface/Widgets/Inventory.Inventory_C:WidgetTree_33.UniformGridPanel_2 or UniformGridPanel /Engine/Transient.World_3:Inventory_C_1.WidgetTre

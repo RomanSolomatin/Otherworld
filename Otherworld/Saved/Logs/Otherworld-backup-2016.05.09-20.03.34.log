@@ -1,0 +1,96 @@
+﻿Log file open, 05/09/16 19:57:44
+LogInit:Display: Running engine for game: Otherworld
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1816490639) SRandInit(-1816490638).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.083492
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.09-23.57.44:545][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-23.57.44:545][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.09-23.57.44:554][  0]LogInit: Computer: MONICA
+[2016.05.09-23.57.44:554][  0]LogInit: User: Matt
+[2016.05.09-23.57.44:554][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.09-23.57.44:554][  0]LogInit: High frequency timer resolution =3.906279 MHz
+[2016.05.09-23.57.44:554][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.09-23.57.44:554][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.09-23.57.44:555][  0]LogMemory: Process Physical Memory: 314.30 MB used, 314.30 MB peak
+[2016.05.09-23.57.44:555][  0]LogMemory: Process Virtual Memory: 314.86 MB used, 314.86 MB peak
+[2016.05.09-23.57.44:555][  0]LogMemory: Physical Memory: 5344.83 MB used, 16330.44 MB total
+[2016.05.09-23.57.44:555][  0]LogMemory: Virtual Memory: 653.25 MB used, 134217728.00 MB total
+[2016.05.09-23.57.44:599][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.09-23.57.45:064][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.09-23.57.45:113][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.05.09-23.57.45:113][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 2 output[s]
+[2016.05.09-23.57.45:115][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.09-23.57.45:115][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 0 output[s]
+[2016.05.09-23.57.45:115][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.09-23.57.45:121][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.09-23.57.45:121][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.05.09-23.57.45:121][  0]LogD3D11RHI:   Driver Version: 10.18.13.6200 (internal 10.18.13.6200)
+[2016.05.09-23.57.45:121][  0]LogD3D11RHI:      Driver Date: 2-23-2016
+[2016.05.09-23.57.45:121][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.09-23.57.45:154][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.09-23.57.45:172][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Intermediate/Shaders/WorkingDirectory/9684/).
+[2016.05.09-23.57.45:172][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/517222D84E02F3F1CA16DBAF49BD6B26/'.
+[2016.05.09-23.57.45:172][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.09-23.57.46:932][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.09-23.57.46:938][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.09-23.57.46:944][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.09-23.57.46:950][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.09-23.57.46:956][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.09-23.57.46:962][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.09-23.57.46:968][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.09-23.57.46:972][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.09-23.57.46:978][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.09-23.57.46:983][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.09-23.57.46:988][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.09-23.57.46:998][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.09-23.57.46:998][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.09-23.57.47:000][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.09-23.57.47:024][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.09-23.57.47:029][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.09-23.57.47:034][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.09-23.57.47:039][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.09-23.57.47:045][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.09-23.57.47:045][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.09-23.57.47:179][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.09-23.57.47:443][  0]LogDerivedDataCache: Loaded boot cache 0.26s 46MB C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-23.57.47:443][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.09-23.57.47:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.09-23.57.47:443][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.09-23.57.47:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.09-23.57.47:443][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.09-23.57.47:461][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.09-23.57.47:474][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.09-23.57.47:945][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-23.57.47:950][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.09-23.57.47:997][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.09-23.57.48:192][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.09-23.57.48:192][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.09-23.57.48:192][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.09-23.57.48:525][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.09-23.57.48:525][  0]LogUObjectAllocat

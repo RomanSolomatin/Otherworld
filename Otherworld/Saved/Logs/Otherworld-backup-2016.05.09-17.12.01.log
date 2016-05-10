@@ -1,0 +1,1025 @@
+﻿Log file open, 05/09/16 16:21:09
+LogInit:Display: Running engine for game: Otherworld
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(211663991) SRandInit(211663993).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.121909
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.09-20.21.10:147][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-20.21.10:147][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.09-20.21.10:156][  0]LogInit: Computer: MONICA
+[2016.05.09-20.21.10:156][  0]LogInit: User: Matt
+[2016.05.09-20.21.10:156][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.09-20.21.10:156][  0]LogInit: High frequency timer resolution =3.906272 MHz
+[2016.05.09-20.21.10:156][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.09-20.21.10:156][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.09-20.21.10:156][  0]LogMemory: Process Physical Memory: 314.30 MB used, 314.30 MB peak
+[2016.05.09-20.21.10:156][  0]LogMemory: Process Virtual Memory: 314.81 MB used, 314.81 MB peak
+[2016.05.09-20.21.10:156][  0]LogMemory: Physical Memory: 3050.75 MB used, 16330.44 MB total
+[2016.05.09-20.21.10:156][  0]LogMemory: Virtual Memory: 653.25 MB used, 134217728.00 MB total
+[2016.05.09-20.21.10:216][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.09-20.21.10:751][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.09-20.21.10:793][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.05.09-20.21.10:793][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 2 output[s]
+[2016.05.09-20.21.10:803][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.09-20.21.10:803][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 0 output[s]
+[2016.05.09-20.21.10:803][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.09-20.21.10:813][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.09-20.21.10:814][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.05.09-20.21.10:814][  0]LogD3D11RHI:   Driver Version: 10.18.13.6200 (internal 10.18.13.6200)
+[2016.05.09-20.21.10:814][  0]LogD3D11RHI:      Driver Date: 2-23-2016
+[2016.05.09-20.21.10:815][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.09-20.21.10:839][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.09-20.21.10:907][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Intermediate/Shaders/WorkingDirectory/10732/).
+[2016.05.09-20.21.10:907][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/1A104FB44F5AD266A98EA7A922F8D118/'.
+[2016.05.09-20.21.10:908][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.09-20.21.12:319][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.09-20.21.12:326][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.09-20.21.12:333][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.09-20.21.12:341][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.09-20.21.12:349][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.09-20.21.12:356][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.09-20.21.12:362][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.09-20.21.12:369][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.09-20.21.12:375][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.09-20.21.12:382][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.09-20.21.12:388][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.09-20.21.12:401][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.09-20.21.12:401][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.09-20.21.12:403][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.09-20.21.12:433][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.09-20.21.12:438][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.09-20.21.12:443][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.09-20.21.12:449][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.09-20.21.12:456][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.09-20.21.12:456][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.09-20.21.12:618][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.09-20.21.12:857][  0]LogDerivedDataCache: Loaded boot cache 0.24s 46MB C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-20.21.12:857][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.09-20.21.12:857][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.09-20.21.12:857][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.09-20.21.12:857][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.09-20.21.12:857][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.09-20.21.12:886][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.09-20.21.12:898][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.09-20.21.13:723][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-20.21.13:731][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.09-20.21.13:885][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.09-20.21.14:127][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.09-20.21.14:127][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.09-20.21.14:127][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.09-20.21.14:743][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.09-20.21.14:743][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.09-20.21.14:744][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.09-20.21.14:754][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.09-20.21.15:124][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-20.21.15:124][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-20.21.15:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-20.21.15:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-20.21.15:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-20.21.15:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-20.21.15:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-20.21.15:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-20.21.16:733][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.09-20.21.16:906][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2016.05.09-20.21.17:255][  0]SourceControl: Info Source control is disabled
+[2016.05.09-20.21.17:344][  0]SourceControl: Info Source control is disabled
+[2016.05.09-20.21.17:368][  0]SourceControl: Info Source control is disabled
+[2016.05.09-20.21.17:385][  0]SourceControl: Info Source control is disabled
+[2016.05.09-20.21.17:615][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.09-20.21.17:757][  0]LogEngine: Initializing Engine...
+[2016.05.09-20.21.18:017][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.09-20.21.18:049][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.21.18:074][  0]LogInit: FAudioDevice initialized.
+[2016.05.09-20.21.18:121][  0]LogDerivedDataCache: Saved boot cache 0.05s 46MB C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-20.21.18:137][  0]LogInit: Texture streaming: Enabled
+[2016.05.09-20.21.18:192][  0]LogInit: Transaction tracking system initialized
+[2016.05.09-20.21.18:272][  0]BlueprintLog: New page: Editor Load
+[2016.05.09-20.21.18:563][  0]LocalizationService: Info Localization service is disabled
+[2016.05.09-20.21.18:940][  0]LogConsoleResponse:Display: 
+[2016.05.09-20.21.19:147][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.09-20.21.19:147][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.09-20.21.19:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Content/' took 0.01s
+[2016.05.09-20.21.19:148][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.09-20.21.19:286][  0]SourceControl: Info Source control is disabled
+[2016.05.09-20.21.19:289][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-20.21.19:291][  0]LightingResults: New page: Lighting Build
+[2016.05.09-20.21.19:308][  0]MapCheck: New page: Map Check
+[2016.05.09-20.21.19:308][  0]LightingResults: New page: Lighting Build
+[2016.05.09-20.21.19:442][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Actors/Pickup.Pickup_C:ItemData'. Unknown structure.
+[2016.05.09-20.21.19:443][  0]LogClass:Warning: Property ItemData of Pickup_C has a struct type mismatch (tag STRUCT_REINST_ItemData_20 != prop FallbackStruct) in package:  ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/Actors/Pickup.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-20.21.19:449][  0]LogClass:Warning: Property ItemData of Pickup_C has a struct type mismatch (tag FallbackStruct != prop ItemData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-20.21.19:511][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:AddToInventory.ItemData'. Unknown structure.
+[2016.05.09-20.21.19:516][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Inventory.Inventory'. Unknown structure.
+[2016.05.09-20.21.19:577][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/UserInterface/Widgets/InventoryItem.InventoryItem_C:ItemData'. Unknown structure.
+[2016.05.09-20.21.19:587][  0]LogClass:Warning: Property ItemData of InventoryItem_C has a struct type mismatch (tag STRUCT_REINST_ItemData_20 != prop FallbackStruct) in package:  ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryItem.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-20.21.19:602][  0]LogClass:Warning: Property ItemData of InventoryItem_C has a struct type mismatch (tag FallbackStruct != prop ItemData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.09-20.21.19:747][  0]LogBlueprint:Warning: [HeadsUpDisplay] CreatePinForVariable: 'Menu' variable not found. Base class was probably changed.
+[2016.05.09-20.21.19:747][  0]LogBlueprint:Warning: [HeadsUpDisplay] CreatePinForVariable: 'Menu' variable not found. Base class was probably changed.
+[2016.05.09-20.21.19:747][  0]LogBlueprint:Warning: [HeadsUpDisplay] CreatePinForVariable: 'Menu' variable not found. Base class was probably changed.
+[2016.05.09-20.21.19:747][  0]LogBlueprint:Warning: [HeadsUpDisplay] CreatePinForVariable: 'Menu' variable not found. Base class was probably changed.
+[2016.05.09-20.21.19:747][  0]LogBlueprint:Warning: [HeadsUpDisplay] CreatePinForVariable: 'Menu' variable not found. Base class was probably changed.
+[2016.05.09-20.21.19:747][  0]LogBlueprint:Warning: [HeadsUpDisplay] CreatePinForVariable: 'Menu' variable not found. Base class was probably changed.
+[2016.05.09-20.21.19:748][  0]LogBlueprint:Warning: [HeadsUpDisplay] CreatePinForVariable: 'Menu' variable not found. Base class was probably changed.
+[2016.05.09-20.21.19:763][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.19:763][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.19:764][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.19:764][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.19:764][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.19:764][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.19:765][  0]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.19:782][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning [0010.62] Compile of HeadsUpDisplay failed. 7 Fatal Issue(s) 7 Warning(s) [in 21 ms]
+[2016.05.09-20.21.19:782][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning [0010.62] Compile of HeadsUpDisplay failed. 7 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2016.05.09-20.21.19:782][  0]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning [0010.62] Compile of HeadsUpDisplay failed. 7 Fatal Issue(s) 9 Warning(s) [in 0 ms]
+[2016.05.09-20.21.20:440][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.21.20:489][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-20.21.20:491][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-20.21.20:557][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.099ms to complete.
+[2016.05.09-20.21.20:557][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.268
+[2016.05.09-20.21.20:809][  0]LogCollectionManager: Loaded 0 collections in 0.002635 seconds
+[2016.05.09-20.21.20:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Saved/Collections/' took 0.01s
+[2016.05.09-20.21.20:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Content/Developers/Matt/Collections/' took 0.01s
+[2016.05.09-20.21.20:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/Otherworld/Content/Collections/' took 0.01s
+[2016.05.09-20.21.20:883][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2016.05.09-20.21.20:895][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 1980 classes and 345 folders.
+[2016.05.09-20.21.20:905][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.09-20.21.20:905][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.09-20.21.20:906][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.05.09-20.21.20:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.09-20.21.20:941][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.09-20.21.21:103][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.09-20.21.21:346][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.09-20.21.21:365][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.09-20.21.21:405][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.09-20.21.21:405][  0]LogLoad: Full Startup: 12.24 seconds (BP compile: 0.34 seconds)
+[2016.05.09-20.21.21:405][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.09-20.21.21:405][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.09-20.21.21:414][  0]LogOcInput: OculusInput pre-init called
+[2016.05.09-20.21.21:483][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.09-20.21.21:665][  0]LogRenderer: Reallocating scene render targets to support 968x408 (Frame:2).
+[2016.05.09-20.21.21:781][  1]LogAssetRegistry: Asset discovery search completed in 4.8978 seconds
+[2016.05.09-20.21.21:781][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.09-20.21.21:781][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000268 seconds (updated 0 objects)
+[2016.05.09-20.21.25:478][351]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 108 classes and 0 folders.
+[2016.05.09-20.21.39:514][534]BlueprintLog: New page: Compile HeadsUpDisplay
+[2016.05.09-20.21.39:542][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:542][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:544][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:544][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:544][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:544][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:544][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:544][534]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:544][534]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:545][534]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:545][534]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:545][534]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:545][534]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:545][534]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning [0030.64] Compile of HeadsUpDisplay failed. 7 Fatal Issue(s) 7 Warning(s) [in 296 ms]
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.39:811][534]BlueprintEditorCompileResults:Warning: Warning [0030.64] Compile of HeadsUpDisplay failed. 7 Fatal Issue(s) 7 Warning(s) [in 296 ms]
+[2016.05.09-20.21.45:734][186]LogSavePackage: Save=94.20ms
+[2016.05.09-20.21.45:734][186]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplay5CBF52CD49EBA2811846A2962EBC78D8.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.21.45:738][186]LogSavePackage: Total save time: 128.61ms
+[2016.05.09-20.21.45:738][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.21.46:569][284]BlueprintLog: New page: Compile HeadsUpDisplay
+[2016.05.09-20.21.46:588][284]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.46:588][284]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.46:588][284]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.46:588][284]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.46:588][284]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.46:588][284]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.46:781][284]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning [0037.61] Compile of HeadsUpDisplay failed. 3 Fatal Issue(s) 3 Warning(s) [in 211 ms]
+[2016.05.09-20.21.46:781][284]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.46:781][284]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.46:781][284]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.21.46:781][284]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.46:781][284]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.46:781][284]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.21.46:781][284]BlueprintEditorCompileResults:Warning: Warning [0037.61] Compile of HeadsUpDisplay failed. 3 Fatal Issue(s) 3 Warning(s) [in 211 ms]
+[2016.05.09-20.22.04:398][353]LogSavePackage: Save=79.29ms
+[2016.05.09-20.22.04:398][353]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplay514C83A54AAA75F6BDB03D909BB4BE34.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.22.04:401][353]LogSavePackage: Total save time: 95.13ms
+[2016.05.09-20.22.04:401][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.22.04:792][398]BlueprintLog: New page: Compile HeadsUpDisplay
+[2016.05.09-20.22.04:808][398]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.22.04:809][398]LogBlueprint:Error: [compiler HeadsUpDisplay] Error The property associated with  Menu  could not be found
+[2016.05.09-20.22.05:010][398]LogBlueprint:Warning: [compiler HeadsUpDisplay] Warning [0055.84] Compile of HeadsUpDisplay failed. 1 Fatal Issue(s) 1 Warning(s) [in 217 ms]
+[2016.05.09-20.22.05:010][398]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Menu" in 'HeadsUpDisplay_C'.
+Make sure 'HeadsUpDisplay_C' has been compiled for  Get Menu 
+[2016.05.09-20.22.05:010][398]BlueprintEditorCompileResults:Error: Error The property associated with  Menu  could not be found
+[2016.05.09-20.22.05:010][398]BlueprintEditorCompileResults:Warning: Warning [0055.84] Compile of HeadsUpDisplay failed. 1 Fatal Issue(s) 1 Warning(s) [in 217 ms]
+[2016.05.09-20.22.05:470][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.22.05:470][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.22.12:285][ 96]LogSavePackage: Save=71.13ms
+[2016.05.09-20.22.12:285][ 96]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplayAB0493104BBF5D38E2657494D004E45D.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.22.12:289][ 96]LogSavePackage: Total save time: 85.06ms
+[2016.05.09-20.22.12:289][ 96]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.22.13:120][193]BlueprintLog: New page: Compile HeadsUpDisplay
+[2016.05.09-20.22.13:250][193]BlueprintEditorCompileResults: Info [0064.08] Compile of HeadsUpDisplay successful! [in 129 ms]
+[2016.05.09-20.22.16:424][562]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.22.16:424][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.22.16:433][562]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:22:16 AM)
+[2016.05.09-20.22.16:433][562]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.22.16:477][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043548s)
+[2016.05.09-20.22.16:478][562]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.22.16:478][562]LogPlayLevel: PIE: World Init took: (0.001691s)
+[2016.05.09-20.22.16:479][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.045596s)
+[2016.05.09-20.22.16:526][562]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.22.16:542][562]LogInit: FAudioDevice initialized.
+[2016.05.09-20.22.16:614][562]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.22.16:619][562]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.22.16
+[2016.05.09-20.22.16:622][562]LogWorld: Bringing up level for play took: 0.007032
+[2016.05.09-20.22.16:634][562]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.05.09-20.22.16:643][562]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.417
+[2016.05.09-20.22.16:643][562]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.22.23:282][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.22.23:324][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.22.47:109][ 90]LogSavePackage: Save=57.33ms
+[2016.05.09-20.22.47:109][ 90]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrameA647D5104CD24EDC1EE34FA4E996F363.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.22.47:113][ 90]LogSavePackage: Total save time: 73.02ms
+[2016.05.09-20.22.47:113][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.22.50:612][504]BlueprintLog: New page: Compile CharacterFrame
+[2016.05.09-20.22.50:741][504]BlueprintEditorCompileResults: Info [0101.57] Compile of CharacterFrame successful! [in 128 ms]
+[2016.05.09-20.22.51:355][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.22.51:355][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.22.51:355][572]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:22:51 AM)
+[2016.05.09-20.22.51:355][572]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.22.51:386][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030978s)
+[2016.05.09-20.22.51:387][572]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.22.51:388][572]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2016.05.09-20.22.51:388][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032679s)
+[2016.05.09-20.22.51:439][572]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.22.51:455][572]LogInit: FAudioDevice initialized.
+[2016.05.09-20.22.51:507][572]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.22.51:513][572]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.22.51
+[2016.05.09-20.22.51:514][572]LogWorld: Bringing up level for play took: 0.004858
+[2016.05.09-20.22.51:524][572]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.464
+[2016.05.09-20.22.51:524][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.22.51:554][574]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:1415).
+[2016.05.09-20.23.06:376][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.23.06:427][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.23.17:742][623]LogSavePackage: Save=58.45ms
+[2016.05.09-20.23.17:742][623]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrameFF9C15D24A6FA55DE5D296A25EE04FAA.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.23.17:746][623]LogSavePackage: Total save time: 72.22ms
+[2016.05.09-20.23.17:746][623]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.23.18:996][771]BlueprintLog: New page: Compile CharacterFrame
+[2016.05.09-20.23.19:116][771]BlueprintEditorCompileResults: Info [0129.95] Compile of CharacterFrame successful! [in 120 ms]
+[2016.05.09-20.23.19:812][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.23.19:812][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.23.19:813][848]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:23:19 AM)
+[2016.05.09-20.23.19:813][848]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.23.19:845][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031900s)
+[2016.05.09-20.23.19:846][848]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.23.19:846][848]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2016.05.09-20.23.19:846][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033496s)
+[2016.05.09-20.23.19:899][848]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.23.19:914][848]LogInit: FAudioDevice initialized.
+[2016.05.09-20.23.19:965][848]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.23.19:970][848]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.23.19
+[2016.05.09-20.23.19:971][848]LogWorld: Bringing up level for play took: 0.004650
+[2016.05.09-20.23.19:981][848]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.922
+[2016.05.09-20.23.19:981][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.23.31:487][188]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.23.31:536][188]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_232.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_4.WidgetTree_231.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_231.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_3.WidgetTree_230.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_230.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree_228.CharacterFrame_320.WidgetTree_226.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.REINST_CharacterFrame_C_38:WidgetTree.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_2.WidgetTree_226.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_0.WidgetTree_209.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_10.WidgetTree_195.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree_229.CharacterFrame_320.WidgetTree_226.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.REINST_CharacterFrame_C_36:WidgetTree.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_1.WidgetTree_40.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_9:HeadsUpDisplay_C_15.WidgetTree_229.CharacterFrame_320.WidgetTree_226.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree.CharacterFrame_320.WidgetTree_40.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_226.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_233.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_6.WidgetTree_233.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_234.StatsPane
+[2016.05.09-20.24.46:026][567]LogUObjectHash:Warning: Ambiguous search, could be Border /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane or Border /Engine/Transient.World_3:CharacterFrame_C_7.WidgetTree_234.StatsPane
+[2016.05.09-20.24.46:026][567]LogProperty:Warning: Illegal TEXT reference to a private object in external package (BorderSlot /Engine/Transient.World_3:CharacterFrame_C_5.WidgetTree_232.StatsPane.BorderSlot_72) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.StatColumnLayout).  Import failed...
+[2016.05.09-20.24.46:026][567]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'BorderSlot'StatsPane.BorderSlot_72''
+[2016.05.09-20.25.41:047][919]LogSavePackage: Save=187.63ms
+[2016.05.09-20.25.41:047][919]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrame20EE47AB4C1407B992FACDA675B490D8.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.25.41:052][919]LogSavePackage: Total save time: 209.17ms
+[2016.05.09-20.25.41:052][919]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.26.17:424][ 69]LogSavePackage: Save=219.53ms
+[2016.05.09-20.26.17:424][ 69]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrame409557D242485672C87D848A00A35E59.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.26.17:428][ 69]LogSavePackage: Total save time: 233.07ms
+[2016.05.09-20.26.17:428][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.26.17:764][108]BlueprintLog: New page: Compile CharacterFrame
+[2016.05.09-20.26.17:903][108]BlueprintEditorCompileResults: Info [0308.74] Compile of CharacterFrame successful! [in 138 ms]
+[2016.05.09-20.26.18:463][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.26.18:463][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.26.18:463][169]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:26:18 AM)
+[2016.05.09-20.26.18:463][169]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.26.18:497][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034406s)
+[2016.05.09-20.26.18:499][169]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.26.18:499][169]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2016.05.09-20.26.18:499][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036441s)
+[2016.05.09-20.26.18:549][169]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.26.18:565][169]LogInit: FAudioDevice initialized.
+[2016.05.09-20.26.18:616][169]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.26.18:622][169]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.26.18
+[2016.05.09-20.26.18:623][169]LogWorld: Bringing up level for play took: 0.005305
+[2016.05.09-20.26.18:634][169]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.426
+[2016.05.09-20.26.18:634][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.40.28:010][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.40.28:062][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.40.46:821][793]LogSavePackage: Save=63.46ms
+[2016.05.09-20.40.46:821][793]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrameE38441304FC4D9B3186A899B6F3D9CE4.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.40.46:825][793]LogSavePackage: Total save time: 81.75ms
+[2016.05.09-20.40.46:826][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.40.47:304][839]BlueprintLog: New page: Compile CharacterFrame
+[2016.05.09-20.40.47:444][839]BlueprintEditorCompileResults: Info [1178.28] Compile of CharacterFrame successful! [in 140 ms]
+[2016.05.09-20.40.48:301][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.40.48:302][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.40.48:302][930]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:40:48 AM)
+[2016.05.09-20.40.48:302][930]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.40.48:334][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031863s)
+[2016.05.09-20.40.48:335][930]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.40.48:335][930]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2016.05.09-20.40.48:335][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033643s)
+[2016.05.09-20.40.48:388][930]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.40.48:404][930]LogInit: FAudioDevice initialized.
+[2016.05.09-20.40.48:615][930]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.40.48:620][930]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.40.48
+[2016.05.09-20.40.48:621][930]LogWorld: Bringing up level for play took: 0.004809
+[2016.05.09-20.40.48:634][930]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.426
+[2016.05.09-20.40.48:635][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.40.55:500][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.40.55:556][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.40.58:527][889]BlueprintLog: New page: Compile CharacterFrame
+[2016.05.09-20.40.58:681][889]BlueprintEditorCompileResults: Info [1189.51] Compile of CharacterFrame successful! [in 153 ms]
+[2016.05.09-20.41.00:734][ 83]LogSavePackage: Save=146.04ms
+[2016.05.09-20.41.00:734][ 83]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrameE06D2A8E4DA4C852FFCDB2B8A2A71367.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.41.00:738][ 83]LogSavePackage: Total save time: 161.22ms
+[2016.05.09-20.41.00:738][ 83]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.41.18:770][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.18:770][167]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.09-20.41.18:794][167]LogPlayLevel: [PlayLevel] Compiling HeadsUpDisplay before play...
+[2016.05.09-20.41.18:916][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 146 ms (3 blueprints)
+[2016.05.09-20.41.18:935][167]LogPlayLevel: [PlayLevel] Compiling CharacterFrame before play...
+[2016.05.09-20.41.19:070][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 300 ms (3 blueprints)
+[2016.05.09-20.41.19:072][167]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.05.09-20.41.19:298][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 528 ms (6 blueprints)
+[2016.05.09-20.41.19:299][167]LogPlayLevel: [PlayLevel] Compiling Inventory before play...
+[2016.05.09-20.41.19:400][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 630 ms (8 blueprints)
+[2016.05.09-20.41.19:401][167]LogPlayLevel: [PlayLevel] Compiling PlayerFrame before play...
+[2016.05.09-20.41.19:518][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 748 ms (8 blueprints)
+[2016.05.09-20.41.19:519][167]LogPlayLevel: [PlayLevel] Compiling TargetInfoFrame before play...
+[2016.05.09-20.41.19:644][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 874 ms (8 blueprints)
+[2016.05.09-20.41.19:645][167]LogPlayLevel: [PlayLevel] Compiling InventoryItem before play...
+[2016.05.09-20.41.19:744][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 973 ms (8 blueprints)
+[2016.05.09-20.41.19:744][167]LogPlayLevel: [PlayLevel] Compiling MenuFrame before play...
+[2016.05.09-20.41.19:832][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 1062 ms (8 blueprints)
+[2016.05.09-20.41.19:880][167]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:41:19 AM)
+[2016.05.09-20.41.19:880][167]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.41.19:913][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032635s)
+[2016.05.09-20.41.19:914][167]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.41.19:914][167]LogPlayLevel: PIE: World Init took: (0.001580s)
+[2016.05.09-20.41.19:915][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034585s)
+[2016.05.09-20.41.19:972][167]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.41.19:987][167]LogInit: FAudioDevice initialized.
+[2016.05.09-20.41.20:035][167]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.41.20:041][167]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.41.20
+[2016.05.09-20.41.20:042][167]LogWorld: Bringing up level for play took: 0.004846
+[2016.05.09-20.41.20:053][167]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.993
+[2016.05.09-20.41.20:053][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.24:743][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.24:795][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.27:178][768]LogSavePackage: Save=438.04ms
+[2016.05.09-20.41.27:178][768]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonExampleMap2A097B904A1ADC95E6448398D627884C.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.09-20.41.27:183][768]LogSavePackage: Total save time: 480.07ms
+[2016.05.09-20.41.27:183][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.09-20.41.27:220][768]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.629
+[2016.05.09-20.41.27:322][768]LogSavePackage: Save=73.74ms
+[2016.05.09-20.41.27:322][768]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplay1290D4A74CAFDE31E66E1787FCBC657D.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.41.27:326][768]LogSavePackage: Total save time: 93.51ms
+[2016.05.09-20.41.27:327][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.41.27:407][768]LogSavePackage: Save=61.20ms
+[2016.05.09-20.41.27:407][768]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrameD7E8C36A41806760A8402D8EBC4E4701.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.41.27:410][768]LogSavePackage: Total save time: 74.82ms
+[2016.05.09-20.41.27:410][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.41.29:270][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.29:270][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.41.29:270][974]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:41:29 AM)
+[2016.05.09-20.41.29:270][974]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.41.29:302][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031441s)
+[2016.05.09-20.41.29:304][974]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.41.29:304][974]LogPlayLevel: PIE: World Init took: (0.001890s)
+[2016.05.09-20.41.29:304][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033653s)
+[2016.05.09-20.41.29:365][974]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.41.29:380][974]LogInit: FAudioDevice initialized.
+[2016.05.09-20.41.29:429][974]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.41.29:435][974]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.41.29
+[2016.05.09-20.41.29:435][974]LogWorld: Bringing up level for play took: 0.004696
+[2016.05.09-20.41.29:448][974]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.388
+[2016.05.09-20.41.29:448][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.32:461][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.32:509][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.41.56:245][976]LogSavePackage: Save=73.24ms
+[2016.05.09-20.41.56:245][976]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrame7F29E76244587EA093EB2F9D40250860.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.41.56:249][976]LogSavePackage: Total save time: 87.04ms
+[2016.05.09-20.41.56:249][976]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.42.02:915][702]LogSavePackage: Save=59.34ms
+[2016.05.09-20.42.02:915][702]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrameDF467C144A1627D81FFA40A8EBD4FB3E.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.42.02:919][702]LogSavePackage: Total save time: 73.25ms
+[2016.05.09-20.42.02:919][702]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.42.04:151][836]BlueprintLog: New page: Compile CharacterFrame
+[2016.05.09-20.42.04:303][836]BlueprintEditorCompileResults: Info [1255.14] Compile of CharacterFrame successful! [in 152 ms]
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_0.WidgetTree_698.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_9:HeadsUpDisplay_C_9.WidgetTree_699.CharacterFrame_320.WidgetTree_698.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.REINST_CharacterFrame_C_95:WidgetTree.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_42.WidgetTree_676.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_41.WidgetTree_675.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree_697.CharacterFrame_320.WidgetTree.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree.CharacterFrame_320.WidgetTree_502.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_40.WidgetTree_674.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_9:HeadsUpDisplay_C_44.WidgetTree_494.CharacterFrame_320.WidgetTree_493.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_33.WidgetTree_501.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree_699.CharacterFrame_320.WidgetTree_698.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_9:HeadsUpDisplay_C_6.WidgetTree_670.CharacterFrame_320.WidgetTree_669.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_698.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.REINST_HeadsUpDisplay_C_76:WidgetTree.CharacterFrame_320.WidgetTree_502.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.REINST_CharacterFrame_C_78:WidgetTree.VerticalBox_2
+[2016.05.09-20.42.15:635][122]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.VerticalBox_2.VerticalBoxSlot_6) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.FeetSlotLayout).  Import failed...
+[2016.05.09-20.42.15:635][122]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_6''
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_701.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_2.WidgetTree_701.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.REINST_CharacterFrame_C_95:WidgetTree.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_42.WidgetTree_676.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_700.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame_C:WidgetTree_698.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_41.WidgetTree_675.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:159][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_9:HeadsUpDisplay_C_44.WidgetTree_494.CharacterFrame_320.WidgetTree_493.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_1.WidgetTree_700.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree_699.CharacterFrame_320.WidgetTree_698.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_9:HeadsUpDisplay_C_6.WidgetTree_670.CharacterFrame_320.WidgetTree_669.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree.CharacterFrame_320.WidgetTree_502.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_40.WidgetTree_674.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Game/UserInterface/Widgets/HeadsUpDisplay.HeadsUpDisplay_C:WidgetTree_697.CharacterFrame_320.WidgetTree.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_0.WidgetTree_698.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_3:CharacterFrame_C_33.WidgetTree_501.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.REINST_HeadsUpDisplay_C_76:WidgetTree.CharacterFrame_320.WidgetTree_502.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.World_9:HeadsUpDisplay_C_9.WidgetTree_699.CharacterFrame_320.WidgetTree_698.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1 or VerticalBox /Engine/Transient.REINST_CharacterFrame_C_78:WidgetTree.EquipmentSlotsColumn1
+[2016.05.09-20.42.59:160][ 90]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UserInterface/Widgets/CharacterFrame.CharacterFrame:WidgetTree.EquipmentSlotsColumn1.VerticalBoxSlot_1079) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_896).  Import failed...
+[2016.05.09-20.42.59:160][ 90]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'EquipmentSlotsColumn1.VerticalBoxSlot_1079''
+[2016.05.09-20.43.36:919][332]LogSavePackage: Save=112.23ms
+[2016.05.09-20.43.36:919][332]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/CharacterFrame24699F7648C8AE8A0720A79A669EDCEF.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset'
+[2016.05.09-20.43.36:924][332]LogSavePackage: Total save time: 126.62ms
+[2016.05.09-20.43.36:924][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/CharacterFrame.uasset
+[2016.05.09-20.43.47:445][529]LogSavePackage: Save=70.49ms
+[2016.05.09-20.43.47:445][529]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplayFFE7C01D476B419B539F449B264F06EA.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.43.47:448][529]LogSavePackage: Total save time: 83.90ms
+[2016.05.09-20.43.47:448][529]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.43.47:841][574]BlueprintLog: New page: Compile HeadsUpDisplay
+[2016.05.09-20.43.47:985][574]BlueprintEditorCompileResults: Info [1358.82] Compile of HeadsUpDisplay successful! [in 143 ms]
+[2016.05.09-20.43.48:612][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.43.48:612][639]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.09-20.43.48:629][639]LogPlayLevel: [PlayLevel] Compiling CharacterFrame before play...
+[2016.05.09-20.43.48:876][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 263 ms (3 blueprints)
+[2016.05.09-20.43.48:878][639]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.05.09-20.43.49:095][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 482 ms (6 blueprints)
+[2016.05.09-20.43.49:120][639]LogPlayLevel: [PlayLevel] Compiling HeadsUpDisplay before play...
+[2016.05.09-20.43.49:245][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 632 ms (6 blueprints)
+[2016.05.09-20.43.49:246][639]LogPlayLevel: [PlayLevel] Compiling Inventory before play...
+[2016.05.09-20.43.49:341][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 728 ms (8 blueprints)
+[2016.05.09-20.43.49:342][639]LogPlayLevel: [PlayLevel] Compiling PlayerFrame before play...
+[2016.05.09-20.43.49:457][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 844 ms (8 blueprints)
+[2016.05.09-20.43.49:458][639]LogPlayLevel: [PlayLevel] Compiling TargetInfoFrame before play...
+[2016.05.09-20.43.49:579][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 966 ms (8 blueprints)
+[2016.05.09-20.43.49:580][639]LogPlayLevel: [PlayLevel] Compiling InventoryItem before play...
+[2016.05.09-20.43.49:676][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 1063 ms (8 blueprints)
+[2016.05.09-20.43.49:677][639]LogPlayLevel: [PlayLevel] Compiling MenuFrame before play...
+[2016.05.09-20.43.49:759][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 1147 ms (8 blueprints)
+[2016.05.09-20.43.49:814][639]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:43:49 AM)
+[2016.05.09-20.43.49:814][639]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.43.49:850][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035425s)
+[2016.05.09-20.43.49:851][639]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.43.49:851][639]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2016.05.09-20.43.49:851][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037233s)
+[2016.05.09-20.43.49:902][639]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.43.49:918][639]LogInit: FAudioDevice initialized.
+[2016.05.09-20.43.49:967][639]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.43.49:972][639]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.43.49
+[2016.05.09-20.43.49:973][639]LogWorld: Bringing up level for play took: 0.004524
+[2016.05.09-20.43.49:985][639]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.925
+[2016.05.09-20.43.49:985][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.44.03:454][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.44.03:523][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.44.08:273][326]LogSavePackage: Save=336.32ms
+[2016.05.09-20.44.08:273][326]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonExampleMap086CBB2C4598FD613C5FCE9CEE59022D.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.09-20.44.08:278][326]LogSavePackage: Total save time: 352.36ms
+[2016.05.09-20.44.08:278][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.09-20.44.08:311][326]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.485
+[2016.05.09-20.44.08:402][326]LogSavePackage: Save=71.16ms
+[2016.05.09-20.44.08:402][326]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplay67B3DB8A4DD2A8E4059E9D98749137ED.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.44.08:406][326]LogSavePackage: Total save time: 85.31ms
+[2016.05.09-20.44.08:406][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.44.08:732][360]BlueprintLog: New page: Compile HeadsUpDisplay
+[2016.05.09-20.44.08:880][360]BlueprintEditorCompileResults: Info [1379.71] Compile of HeadsUpDisplay successful! [in 148 ms]
+[2016.05.09-20.44.09:472][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.44.09:472][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.44.09:472][421]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:44:09 AM)
+[2016.05.09-20.44.09:472][421]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.44.09:502][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029420s)
+[2016.05.09-20.44.09:503][421]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.44.09:503][421]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2016.05.09-20.44.09:503][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030979s)
+[2016.05.09-20.44.09:555][421]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.44.09:572][421]LogInit: FAudioDevice initialized.
+[2016.05.09-20.44.09:623][421]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.44.09:629][421]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.44.09
+[2016.05.09-20.44.09:630][421]LogWorld: Bringing up level for play took: 0.004993
+[2016.05.09-20.44.09:645][421]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.585
+[2016.05.09-20.44.09:645][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.45.31:796][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.45.31:845][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.47.24:946][213]LogSavePackage: Save=111.95ms
+[2016.05.09-20.47.24:946][213]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplay54A168C943D885EFEB8C0A81B56EB0B8.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.47.24:950][213]LogSavePackage: Total save time: 131.32ms
+[2016.05.09-20.47.24:950][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.48.02:608][391]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.48.02:608][391]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.09-20.48.02:625][391]LogPlayLevel: [PlayLevel] Compiling HeadsUpDisplay before play...
+[2016.05.09-20.48.02:666][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'GameMenu' for  InputAction GameMenu 
+[2016.05.09-20.48.02:771][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 163 ms (2 blueprints)
+[2016.05.09-20.48.02:773][391]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.05.09-20.48.02:841][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'GameMenu' for  InputAction GameMenu 
+[2016.05.09-20.48.02:856][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [1613.69] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 43 ms]
+[2016.05.09-20.48.02:856][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [1613.69] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.09-20.48.02:857][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [1613.69] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.09-20.48.02:975][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [1613.81] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 118 ms]
+[2016.05.09-20.48.02:977][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [1613.81] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 1 ms]
+[2016.05.09-20.48.02:977][391]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [1613.81] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2016.05.09-20.48.02:977][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 369 ms (5 blueprints)
+[2016.05.09-20.48.02:977][391]LogPlayLevel: [PlayLevel] Compiling Inventory before play...
+[2016.05.09-20.48.03:070][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 461 ms (7 blueprints)
+[2016.05.09-20.48.03:071][391]LogPlayLevel: [PlayLevel] Compiling PlayerFrame before play...
+[2016.05.09-20.48.03:172][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 564 ms (7 blueprints)
+[2016.05.09-20.48.03:172][391]LogPlayLevel: [PlayLevel] Compiling TargetInfoFrame before play...
+[2016.05.09-20.48.03:279][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 671 ms (7 blueprints)
+[2016.05.09-20.48.03:280][391]LogPlayLevel: [PlayLevel] Compiling InventoryItem before play...
+[2016.05.09-20.48.03:374][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 766 ms (7 blueprints)
+[2016.05.09-20.48.03:375][391]LogPlayLevel: [PlayLevel] Compiling MenuFrame before play...
+[2016.05.09-20.48.03:455][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 847 ms (7 blueprints)
+[2016.05.09-20.48.03:499][391]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:48:03 AM)
+[2016.05.09-20.48.03:499][391]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.48.03:533][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033158s)
+[2016.05.09-20.48.03:534][391]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.48.03:534][391]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2016.05.09-20.48.03:534][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034788s)
+[2016.05.09-20.48.03:581][391]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.48.03:596][391]LogInit: FAudioDevice initialized.
+[2016.05.09-20.48.03:624][391]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.48.03:629][391]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.48.03
+[2016.05.09-20.48.03:630][391]LogWorld: Bringing up level for play took: 0.004436
+[2016.05.09-20.48.03:637][391]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.577
+[2016.05.09-20.48.03:637][391]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.48.04:074][438]Set new viewmode: Wireframe
+[2016.05.09-20.48.04:666][509]Set new viewmode: Wireframe
+[2016.05.09-20.48.05:535][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.48.05:566][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.48.09:168][973]LogSavePackage: Save=331.40ms
+[2016.05.09-20.48.09:168][973]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonExampleMap329E3C5A48C31D36468749AA945362A4.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.09-20.48.09:173][973]LogSavePackage: Total save time: 361.29ms
+[2016.05.09-20.48.09:173][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.09-20.48.09:203][973]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.489
+[2016.05.09-20.48.25:973][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.48.25:973][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.48.25:973][757]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:48:25 AM)
+[2016.05.09-20.48.25:973][757]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.48.26:014][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040718s)
+[2016.05.09-20.48.26:015][757]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.48.26:015][757]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2016.05.09-20.48.26:016][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042499s)
+[2016.05.09-20.48.26:071][757]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.48.26:087][757]LogInit: FAudioDevice initialized.
+[2016.05.09-20.48.26:115][757]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.48.26:120][757]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.48.26
+[2016.05.09-20.48.26:121][757]LogWorld: Bringing up level for play took: 0.004615
+[2016.05.09-20.48.26:128][757]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.069
+[2016.05.09-20.48.26:128][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.48.30:075][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.48.30:107][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.49.13:511][985]LogSavePackage: Save=321.99ms
+[2016.05.09-20.49.13:511][985]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonCharacter6EC0D295413EBC16A14218B30B3A1A63.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.05.09-20.49.13:515][985]LogSavePackage: Total save time: 341.56ms
+[2016.05.09-20.49.13:515][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.05.09-20.49.13:792][ 15]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.05.09-20.49.13:913][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-20.49.14:043][ 15]BlueprintEditorCompileResults: Info [1684.88] Compile of ThirdPersonCharacter successful! [in 250 ms]
+[2016.05.09-20.49.14:760][ 89]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.49.14:760][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.49.14:760][ 89]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:49:14 AM)
+[2016.05.09-20.49.14:761][ 89]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.49.14:792][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031656s)
+[2016.05.09-20.49.14:793][ 89]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.49.14:794][ 89]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2016.05.09-20.49.14:794][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033240s)
+[2016.05.09-20.49.14:851][ 89]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.49.14:865][ 89]LogInit: FAudioDevice initialized.
+[2016.05.09-20.49.14:914][ 89]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.49.14:920][ 89]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.49.14
+[2016.05.09-20.49.14:921][ 89]LogWorld: Bringing up level for play took: 0.004928
+[2016.05.09-20.49.14:935][ 89]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.125
+[2016.05.09-20.49.14:935][ 89]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.49.17:132][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.49.17:207][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.49.25:795][215]LogSavePackage: Save=333.55ms
+[2016.05.09-20.49.25:795][215]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonExampleMapDD42BCA6497ED1412C4C5688A9E06A45.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.09-20.49.25:800][215]LogSavePackage: Total save time: 349.18ms
+[2016.05.09-20.49.25:800][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.09-20.49.25:841][215]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.492
+[2016.05.09-20.49.26:208][215]LogSavePackage: Save=319.54ms
+[2016.05.09-20.49.26:208][215]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonCharacter88F2AC7944689367E90B6DA9D05B3A40.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.05.09-20.49.26:212][215]LogSavePackage: Total save time: 333.41ms
+[2016.05.09-20.49.26:212][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.05.09-20.49.26:570][254]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.05.09-20.49.26:696][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-20.49.26:825][254]BlueprintEditorCompileResults: Info [1697.66] Compile of ThirdPersonCharacter successful! [in 254 ms]
+[2016.05.09-20.49.27:446][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.49.27:446][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.49.27:446][319]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:49:27 AM)
+[2016.05.09-20.49.27:446][319]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.49.27:481][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034751s)
+[2016.05.09-20.49.27:483][319]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.49.27:483][319]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2016.05.09-20.49.27:483][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036951s)
+[2016.05.09-20.49.27:534][319]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.49.27:549][319]LogInit: FAudioDevice initialized.
+[2016.05.09-20.49.27:606][319]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.49.27:612][319]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.49.27
+[2016.05.09-20.49.27:613][319]LogWorld: Bringing up level for play took: 0.004745
+[2016.05.09-20.49.27:628][319]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.568
+[2016.05.09-20.49.27:628][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.50.33:492][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.50.33:567][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.50.44:368][809]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_InventoryItem_C_0' or package '/Engine/Transient'.
+[2016.05.09-20.50.44:369][809]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_InventoryItem_C_1' or package '/Engine/Transient'.
+[2016.05.09-20.50.44:369][809]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_InventoryItem_C_147' or package '/Engine/Transient'.
+[2016.05.09-20.50.44:369][809]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_InventoryItem_C_146' or package '/Engine/Transient'.
+[2016.05.09-20.50.47:420][955]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Inventory_C_2' or package '/Engine/Transient'.
+[2016.05.09-20.50.47:420][955]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Inventory_C_3' or package '/Engine/Transient'.
+[2016.05.09-20.50.47:420][955]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Inventory' or package '/Game/UserInterface/Widgets/MenuFrame'.
+[2016.05.09-20.50.47:420][955]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Inventory_C_149' or package '/Engine/Transient'.
+[2016.05.09-20.50.47:420][955]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Inventory_C_148' or package '/Engine/Transient'.
+[2016.05.09-20.51.04:177][586]LogSlate:Warning: FSlateFontInfo property 'Font.FontObject' on object '/Engine/Transient.World_12:PlayerFrame_C_1.WidgetTree_1057.PlayerName' was set to use a null UFont. Slate will be forced to use the fallback font path which may be slower.
+[2016.05.09-20.51.19:288][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UserInterface/Widgets/PlayerFrame" FILE="../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/PlayerFrame.uasset" SILENT=true
+[2016.05.09-20.51.19:349][368]LogSavePackage: Save=44.47ms
+[2016.05.09-20.51.19:349][368]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/PlayerFrame2EE5014B4F486C153E8F3497C8B15418.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/PlayerFrame.uasset'
+[2016.05.09-20.51.19:352][368]LogSavePackage: Total save time: 62.67ms
+[2016.05.09-20.51.19:352][368]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/PlayerFrame.uasset
+[2016.05.09-20.51.21:942][673]BlueprintLog: New page: Compile PlayerFrame
+[2016.05.09-20.51.22:059][673]BlueprintEditorCompileResults: Info [1812.89] Compile of PlayerFrame successful! [in 117 ms]
+[2016.05.09-20.51.38:113][487]LogSavePackage: Save=331.29ms
+[2016.05.09-20.51.38:113][487]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonExampleMap24AE3FB046107D21064CD3A5C0AE49EA.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.09-20.51.38:118][487]LogSavePackage: Total save time: 347.21ms
+[2016.05.09-20.51.38:118][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.09-20.51.38:156][487]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.488
+[2016.05.09-20.51.38:164][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UserInterface/Widgets/MenuFrame" FILE="../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/MenuFrame.uasset" SILENT=true
+[2016.05.09-20.51.38:195][487]LogSavePackage: Save=17.66ms
+[2016.05.09-20.51.38:195][487]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/MenuFrame30623A6247C80245592584BFC39FA70A.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/MenuFrame.uasset'
+[2016.05.09-20.51.38:198][487]LogSavePackage: Total save time: 32.64ms
+[2016.05.09-20.51.38:198][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/MenuFrame.uasset
+[2016.05.09-20.51.38:230][487]LogSavePackage: Save=12.29ms
+[2016.05.09-20.51.38:230][487]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/PartyMemberFrameE691A6CE46DEBCF530652AAE42FD3EB0.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/PartyMemberFrame.uasset'
+[2016.05.09-20.51.38:234][487]LogSavePackage: Total save time: 28.14ms
+[2016.05.09-20.51.38:234][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/PartyMemberFrame.uasset
+[2016.05.09-20.51.38:578][527]BlueprintLog: New page: Compile PartyMemberFrame
+[2016.05.09-20.51.38:676][527]BlueprintEditorCompileResults: Info [1829.51] Compile of PartyMemberFrame successful! [in 97 ms]
+[2016.05.09-20.51.39:311][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.51.39:311][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.51.39:311][598]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:51:39 AM)
+[2016.05.09-20.51.39:311][598]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.51.39:343][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032208s)
+[2016.05.09-20.51.39:344][598]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.51.39:345][598]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2016.05.09-20.51.39:345][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033860s)
+[2016.05.09-20.51.39:389][598]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.51.39:405][598]LogInit: FAudioDevice initialized.
+[2016.05.09-20.51.39:452][598]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.51.39:458][598]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.51.39
+[2016.05.09-20.51.39:459][598]LogWorld: Bringing up level for play took: 0.005058
+[2016.05.09-20.51.39:470][598]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.41
+[2016.05.09-20.51.39:470][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.52.08:420][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.52.08:470][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.56.31:941][170]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout or HorizontalBox /Game/UserInterface/Widgets/InventoryFrame.InventoryFrame:WidgetTree.InventoryStatsLayout
+[2016.05.09-20.56.31:941][170]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout or HorizontalBox /Game/UserInterface/Widgets/InventoryFrame.InventoryFrame_C:WidgetTree_1081.InventoryStatsLayout
+[2016.05.09-20.56.31:941][170]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout or HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_10.WidgetTree_1081.InventoryStatsLayout
+[2016.05.09-20.56.31:941][170]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout or HorizontalBox /Game/UserInterface/Widgets/InventoryFrame.InventoryFrame_C:WidgetTree_1082.InventoryStatsLayout
+[2016.05.09-20.56.31:941][170]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout or HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_11.WidgetTree_1082.InventoryStatsLayout
+[2016.05.09-20.56.31:941][170]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout or HorizontalBox /Game/UserInterface/Widgets/InventoryFrame.InventoryFrame_C:WidgetTree_1083.InventoryStatsLayout
+[2016.05.09-20.56.31:941][170]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout or HorizontalBox /Engine/Transient.World_16:InventoryFrame_C_12.WidgetTree_1083.InventoryStatsLayout
+[2016.05.09-20.56.31:941][170]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Engine/Transient.World_16:InventoryFrame_C_9.WidgetTree_1080.InventoryStatsLayout.HorizontalBoxSlot_2365) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_1244).  Import failed...
+[2016.05.09-20.56.31:941][170]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'InventoryStatsLayout.HorizontalBoxSlot_2365''
+[2016.05.09-20.57.58:861][369]LogSavePackage: Save=95.00ms
+[2016.05.09-20.57.58:861][369]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventoryFrameF3EC0F8F418E5097420706B7C1CDD166.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset'
+[2016.05.09-20.57.58:865][369]LogSavePackage: Total save time: 98.76ms
+[2016.05.09-20.57.58:865][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset
+[2016.05.09-20.57.59:406][401]BlueprintLog: New page: Compile InventoryFrame
+[2016.05.09-20.57.59:535][401]BlueprintEditorCompileResults: Info [2210.37] Compile of InventoryFrame successful! [in 128 ms]
+[2016.05.09-20.59.00:656][549]LogSavePackage: Save=26.11ms
+[2016.05.09-20.59.00:656][549]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventoryFrameAFFA4A5E4853B982C58234B6364E93CF.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset'
+[2016.05.09-20.59.00:659][549]LogSavePackage: Total save time: 43.98ms
+[2016.05.09-20.59.00:659][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset
+[2016.05.09-20.59.11:667][868]BlueprintLog: New page: Compile InventoryFrame
+[2016.05.09-20.59.11:765][868]BlueprintEditorCompileResults: Info [2282.60] Compile of InventoryFrame successful! [in 98 ms]
+[2016.05.09-20.59.46:371][774]LogSavePackage: Save=93.22ms
+[2016.05.09-20.59.46:371][774]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/HeadsUpDisplay07DA0D594F226AE21C343FA047C19934.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset'
+[2016.05.09-20.59.46:375][774]LogSavePackage: Total save time: 108.84ms
+[2016.05.09-20.59.46:375][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/HeadsUpDisplay.uasset
+[2016.05.09-20.59.47:193][863]BlueprintLog: New page: Compile HeadsUpDisplay
+[2016.05.09-20.59.47:399][863]BlueprintEditorCompileResults: Info [2318.23] Compile of HeadsUpDisplay successful! [in 206 ms]
+[2016.05.09-20.59.48:098][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-20.59.48:098][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-20.59.48:099][934]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 11:59:48 AM)
+[2016.05.09-20.59.48:099][934]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-20.59.48:131][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032107s)
+[2016.05.09-20.59.48:132][934]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-20.59.48:132][934]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2016.05.09-20.59.48:132][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033862s)
+[2016.05.09-20.59.48:180][934]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-20.59.48:196][934]LogInit: FAudioDevice initialized.
+[2016.05.09-20.59.48:245][934]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-20.59.48:251][934]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-16.59.48
+[2016.05.09-20.59.48:252][934]LogWorld: Bringing up level for play took: 0.004940
+[2016.05.09-20.59.48:267][934]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.792
+[2016.05.09-20.59.48:267][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.00.25:840][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.00.25:893][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.01.32:514][ 57]LogSavePackage: Save=33.42ms
+[2016.05.09-21.01.32:514][ 57]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventoryFrame19E535AA43D7147CB87104B21B3E5E57.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset'
+[2016.05.09-21.01.32:518][ 57]LogSavePackage: Total save time: 47.38ms
+[2016.05.09-21.01.32:518][ 57]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset
+[2016.05.09-21.01.39:978][908]LogSavePackage: Save=8.57ms
+[2016.05.09-21.01.39:978][908]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventorySlot7CD2F3EA429E936024473999DF41505A.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset'
+[2016.05.09-21.01.39:981][908]LogSavePackage: Total save time: 11.82ms
+[2016.05.09-21.01.39:981][908]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset
+[2016.05.09-21.03.39:144][775]BlueprintLog: New page: Compile InventoryFrame
+[2016.05.09-21.03.39:470][775]BlueprintEditorCompileResults: Info [2550.30] Compile of InventoryFrame successful! [in 325 ms]
+[2016.05.09-21.03.39:683][782]LogSavePackage: Save=34.85ms
+[2016.05.09-21.03.39:683][782]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventoryFrameFB2EA5064EC4DEFBDE1B3C8C4A9A4C91.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset'
+[2016.05.09-21.03.39:687][782]LogSavePackage: Total save time: 48.69ms
+[2016.05.09-21.03.39:687][782]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset
+[2016.05.09-21.03.40:321][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.03.40:321][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-21.03.40:321][851]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 12:03:40 PM)
+[2016.05.09-21.03.40:321][851]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-21.03.40:354][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033311s)
+[2016.05.09-21.03.40:355][851]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-21.03.40:356][851]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2016.05.09-21.03.40:356][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034810s)
+[2016.05.09-21.03.40:409][851]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-21.03.40:424][851]LogInit: FAudioDevice initialized.
+[2016.05.09-21.03.40:473][851]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-21.03.40:479][851]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-17.03.40
+[2016.05.09-21.03.40:479][851]LogWorld: Bringing up level for play took: 0.004496
+[2016.05.09-21.03.40:494][851]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.566
+[2016.05.09-21.03.40:494][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.04.13:013][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.04.13:061][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.04.20:187][627]LogSavePackage: Save=34.93ms
+[2016.05.09-21.04.20:187][627]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventoryFrameF62A54F44E3594DC9A6B91A7FB22C72D.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset'
+[2016.05.09-21.04.20:190][627]LogSavePackage: Total save time: 50.31ms
+[2016.05.09-21.04.20:190][627]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset
+[2016.05.09-21.04.21:675][792]BlueprintLog: New page: Compile InventoryFrame
+[2016.05.09-21.04.21:867][792]BlueprintEditorCompileResults: Info [2592.70] Compile of InventoryFrame successful! [in 192 ms]
+[2016.05.09-21.04.23:830][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.04.23:830][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-21.04.23:830][ 10]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 12:04:23 PM)
+[2016.05.09-21.04.23:830][ 10]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-21.04.23:861][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031117s)
+[2016.05.09-21.04.23:862][ 10]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-21.04.23:862][ 10]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2016.05.09-21.04.23:863][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032885s)
+[2016.05.09-21.04.23:909][ 10]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-21.04.23:924][ 10]LogInit: FAudioDevice initialized.
+[2016.05.09-21.04.23:975][ 10]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-21.04.23:981][ 10]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-17.04.23
+[2016.05.09-21.04.23:981][ 10]LogWorld: Bringing up level for play took: 0.004614
+[2016.05.09-21.04.23:995][ 10]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.936
+[2016.05.09-21.04.23:996][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.04.26:652][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.04.26:703][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.04.51:589][112]LogSavePackage: Save=37.05ms
+[2016.05.09-21.04.51:589][112]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventoryFrame505481FA4D201E07F5800BB9A548A6D4.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset'
+[2016.05.09-21.04.51:592][112]LogSavePackage: Total save time: 52.09ms
+[2016.05.09-21.04.51:592][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset
+[2016.05.09-21.04.53:765][351]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.031
+[2016.05.09-21.07.13:567][ 32]LogSavePackage: Save=9.35ms
+[2016.05.09-21.07.13:567][ 32]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventorySlot4641D3AB419AC7FBD94C6B96AFB247E4.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset'
+[2016.05.09-21.07.13:570][ 32]LogSavePackage: Total save time: 28.20ms
+[2016.05.09-21.07.13:570][ 32]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset
+[2016.05.09-21.09.28:171][712]LogSavePackage: Save=13.18ms
+[2016.05.09-21.09.28:171][712]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventorySlot7A72B5954F28802B383EA5B9C8F93593.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset'
+[2016.05.09-21.09.28:175][712]LogSavePackage: Total save time: 28.81ms
+[2016.05.09-21.09.28:175][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset
+[2016.05.09-21.10.12:838][996]LogSavePackage: Save=12.84ms
+[2016.05.09-21.10.12:838][996]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventorySlot7B8D9718407A69D1FCB91FB333186D10.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset'
+[2016.05.09-21.10.12:841][996]LogSavePackage: Total save time: 27.63ms
+[2016.05.09-21.10.12:841][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset
+[2016.05.09-21.10.13:558][ 80]BlueprintLog: New page: Compile InventorySlot
+[2016.05.09-21.10.13:991][ 80]BlueprintEditorCompileResults: Info [2944.82] Compile of InventorySlot successful! [in 432 ms]
+[2016.05.09-21.10.14:674][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.14:674][155]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.09-21.10.14:679][155]LogPlayLevel: [PlayLevel] Compiling InventoryFrame before play...
+[2016.05.09-21.10.14:918][155]LogPlayLevel: PlayLevel: Blueprint regeneration took 243 ms (3 blueprints)
+[2016.05.09-21.10.14:920][155]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.05.09-21.10.15:149][155]LogPlayLevel: PlayLevel: Blueprint regeneration took 474 ms (5 blueprints)
+[2016.05.09-21.10.15:171][155]LogPlayLevel: [PlayLevel] Compiling HeadsUpDisplay before play...
+[2016.05.09-21.10.15:299][155]LogPlayLevel: PlayLevel: Blueprint regeneration took 625 ms (5 blueprints)
+[2016.05.09-21.10.15:318][155]LogPlayLevel: [PlayLevel] Compiling PlayerFrame before play...
+[2016.05.09-21.10.15:449][155]LogPlayLevel: PlayLevel: Blueprint regeneration took 774 ms (5 blueprints)
+[2016.05.09-21.10.15:449][155]LogPlayLevel: [PlayLevel] Compiling TargetInfoFrame before play...
+[2016.05.09-21.10.15:569][155]LogPlayLevel: PlayLevel: Blueprint regeneration took 895 ms (5 blueprints)
+[2016.05.09-21.10.15:616][155]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 12:10:15 PM)
+[2016.05.09-21.10.15:616][155]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-21.10.15:650][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034269s)
+[2016.05.09-21.10.15:651][155]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-21.10.15:652][155]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2016.05.09-21.10.15:652][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035767s)
+[2016.05.09-21.10.15:701][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-21.10.15:716][155]LogInit: FAudioDevice initialized.
+[2016.05.09-21.10.15:767][155]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-21.10.15:773][155]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-17.10.15
+[2016.05.09-21.10.15:774][155]LogWorld: Bringing up level for play took: 0.005308
+[2016.05.09-21.10.15:786][155]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.726
+[2016.05.09-21.10.15:786][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.17:316][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.17:366][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.26:712][420]BlueprintLog: New page: Compile InventoryFrame
+[2016.05.09-21.10.26:997][420]BlueprintEditorCompileResults: Info [2957.83] Compile of InventoryFrame successful! [in 284 ms]
+[2016.05.09-21.10.27:405][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.27:405][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-21.10.27:405][458]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 12:10:27 PM)
+[2016.05.09-21.10.27:405][458]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-21.10.27:437][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031936s)
+[2016.05.09-21.10.27:438][458]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-21.10.27:439][458]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2016.05.09-21.10.27:439][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033542s)
+[2016.05.09-21.10.27:494][458]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-21.10.27:508][458]LogInit: FAudioDevice initialized.
+[2016.05.09-21.10.27:557][458]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-21.10.27:563][458]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-17.10.27
+[2016.05.09-21.10.27:563][458]LogWorld: Bringing up level for play took: 0.004714
+[2016.05.09-21.10.27:575][458]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.515
+[2016.05.09-21.10.27:575][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.32:734][ 54]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.32:786][ 54]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.47:085][659]LogSavePackage: Save=338.13ms
+[2016.05.09-21.10.47:085][659]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/ThirdPersonExampleMap92D2909048F3396A423B13A4269C76BF.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.09-21.10.47:091][659]LogSavePackage: Total save time: 370.22ms
+[2016.05.09-21.10.47:091][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.09-21.10.47:124][659]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.515
+[2016.05.09-21.10.47:154][659]LogSavePackage: Save=12.15ms
+[2016.05.09-21.10.47:154][659]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventorySlot0199391042C08C40C898DAA091C8BE15.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset'
+[2016.05.09-21.10.47:157][659]LogSavePackage: Total save time: 26.82ms
+[2016.05.09-21.10.47:157][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventorySlot.uasset
+[2016.05.09-21.10.47:208][659]LogSavePackage: Save=31.09ms
+[2016.05.09-21.10.47:208][659]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Saved/InventoryFrame12B1B66C40EDF4B736CE06BC2D74E01A.tmp' to '../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset'
+[2016.05.09-21.10.47:211][659]LogSavePackage: Total save time: 46.19ms
+[2016.05.09-21.10.47:211][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/Unreal Projects/Otherworld/Content/UserInterface/Widgets/InventoryFrame.uasset
+[2016.05.09-21.10.48:410][797]BlueprintLog: New page: Compile InventorySlot
+[2016.05.09-21.10.48:550][797]BlueprintEditorCompileResults: Info [2979.38] Compile of InventorySlot successful! [in 140 ms]
+[2016.05.09-21.10.49:114][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.10.49:114][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-21.10.49:114][854]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 12:10:49 PM)
+[2016.05.09-21.10.49:114][854]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.09-21.10.49:146][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032527s)
+[2016.05.09-21.10.49:148][854]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.09-21.10.49:148][854]LogPlayLevel: PIE: World Init took: (0.001327s)
+[2016.05.09-21.10.49:148][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034247s)
+[2016.05.09-21.10.49:201][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-21.10.49:216][854]LogInit: FAudioDevice initialized.
+[2016.05.09-21.10.49:269][854]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.09-21.10.49:274][854]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.09-17.10.49
+[2016.05.09-21.10.49:275][854]LogWorld: Bringing up level for play took: 0.004717
+[2016.05.09-21.10.49:286][854]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.227
+[2016.05.09-21.10.49:287][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.11.19:751][485]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.11.19:801][485]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.09-21.11.57:880][858]LogCrashTracker: 
+
+
+[2016.05.09-21.11.57:892][858]LogCrashTracker: 
+
+
+[2016.05.09-21.11.57:892][858]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.05.09-21.11.57:954][858]LogExit: Executing StaticShutdownAfterError
+[2016.05.09-21.11.57:976][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:977][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:977][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:978][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:979][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:979][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:980][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:980][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:980][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:980][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:980][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:981][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:981][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:981][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:981][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:982][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:982][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:982][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:982][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:982][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:983][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:983][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:983][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:984][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:984][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:984][858]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.09-21.11.57:985][858]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.05.09-21.11.57:985][858]Log file closed, 05/09/16 17:11:57
