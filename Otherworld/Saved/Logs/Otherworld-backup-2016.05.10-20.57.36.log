@@ -1,0 +1,1462 @@
+﻿Log file open, 05/10/16 01:31:12
+LogInit:Display: Running engine for game: Otherworld
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1534606656) SRandInit(1534606659).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.691353
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.10-05.31.13:214][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.10-05.31.13:214][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.10-05.31.13:229][  0]LogInit: Computer: MONICA
+[2016.05.10-05.31.13:229][  0]LogInit: User: Matt
+[2016.05.10-05.31.13:229][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.10-05.31.13:229][  0]LogInit: High frequency timer resolution =3.906232 MHz
+[2016.05.10-05.31.13:229][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.10-05.31.13:229][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.10-05.31.13:229][  0]LogMemory: Process Physical Memory: 313.57 MB used, 313.57 MB peak
+[2016.05.10-05.31.13:229][  0]LogMemory: Process Virtual Memory: 314.86 MB used, 314.86 MB peak
+[2016.05.10-05.31.13:229][  0]LogMemory: Physical Memory: 2673.25 MB used, 16330.94 MB total
+[2016.05.10-05.31.13:229][  0]LogMemory: Virtual Memory: 653.25 MB used, 134217728.00 MB total
+[2016.05.10-05.31.13:405][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.10-05.31.13:919][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.10-05.31.13:960][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.05.10-05.31.13:960][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 2 output[s]
+[2016.05.10-05.31.13:970][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.10-05.31.13:970][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 0 output[s]
+[2016.05.10-05.31.13:970][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.10-05.31.13:977][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.10-05.31.13:978][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.05.10-05.31.13:978][  0]LogD3D11RHI:   Driver Version: 10.18.13.6200 (internal 10.18.13.6200)
+[2016.05.10-05.31.13:978][  0]LogD3D11RHI:      Driver Date: 2-23-2016
+[2016.05.10-05.31.13:978][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.10-05.31.13:999][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.10-05.31.14:046][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Intermediate/Shaders/WorkingDirectory/10744/).
+[2016.05.10-05.31.14:046][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/FB4749104011351D8E8E87939EF40D8A/'.
+[2016.05.10-05.31.14:047][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.10-05.31.15:646][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.10-05.31.15:653][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.10-05.31.15:660][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.10-05.31.15:667][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.10-05.31.15:675][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.10-05.31.15:681][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.10-05.31.15:688][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.10-05.31.15:694][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.10-05.31.15:700][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.10-05.31.15:706][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.10-05.31.15:712][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.10-05.31.15:724][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.10-05.31.15:724][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.10-05.31.15:727][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.10-05.31.15:757][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.10-05.31.15:761][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.10-05.31.15:766][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.10-05.31.15:771][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.10-05.31.15:778][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.10-05.31.15:778][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.10-05.31.15:940][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.10-05.31.16:176][  0]LogDerivedDataCache: Loaded boot cache 0.24s 46MB C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.10-05.31.16:176][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.10-05.31.16:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.10-05.31.16:176][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.10-05.31.16:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.10-05.31.16:176][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.10-05.31.16:198][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.10-05.31.16:211][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.10-05.31.16:937][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.10-05.31.16:942][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.10-05.31.17:081][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.10-05.31.17:309][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.10-05.31.17:309][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.10-05.31.17:309][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.10-05.31.17:855][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.10-05.31.17:855][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.10-05.31.17:855][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.10-05.31.17:864][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.10-05.31.18:207][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.10-05.31.18:207][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.10-05.31.18:474][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.10-05.31.18:474][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.10-05.31.18:474][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.10-05.31.18:474][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.10-05.31.18:474][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.10-05.31.18:475][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.10-05.31.19:763][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.10-05.31.19:937][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2016.05.10-05.31.20:262][  0]SourceControl: Info Source control is disabled
+[2016.05.10-05.31.20:350][  0]SourceControl: Info Source control is disabled
+[2016.05.10-05.31.20:376][  0]SourceControl: Info Source control is disabled
+[2016.05.10-05.31.20:394][  0]SourceControl: Info Source control is disabled
+[2016.05.10-05.31.20:621][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.10-05.31.20:748][  0]LogEngine: Initializing Engine...
+[2016.05.10-05.31.20:978][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.10-05.31.21:005][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.10-05.31.21:029][  0]LogInit: FAudioDevice initialized.
+[2016.05.10-05.31.21:073][  0]LogDerivedDataCache: Saved boot cache 0.04s 46MB C:/Users/Matt/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.10-05.31.21:087][  0]LogInit: Texture streaming: Enabled
+[2016.05.10-05.31.21:207][  0]LogInit: Transaction tracking system initialized
+[2016.05.10-05.31.21:295][  0]BlueprintLog: New page: Editor Load
+[2016.05.10-05.31.21:570][  0]LocalizationService: Info Localization service is disabled
+[2016.05.10-05.31.21:927][  0]LogConsoleResponse:Display: 
+[2016.05.10-05.31.22:097][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.10-05.31.22:098][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.10-05.31.22:098][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.10-05.31.22:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/' took 0.01s
+[2016.05.10-05.31.22:249][  0]SourceControl: Info Source control is disabled
+[2016.05.10-05.31.22:252][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.10-05.31.22:253][  0]LightingResults: New page: Lighting Build
+[2016.05.10-05.31.22:269][  0]MapCheck: New page: Map Check
+[2016.05.10-05.31.22:269][  0]LightingResults: New page: Lighting Build
+[2016.05.10-05.31.22:551][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Actors/Pickup.Pickup_C:ItemData'. Unknown structure.
+[2016.05.10-05.31.22:552][  0]LogClass:Warning: Property ItemData of Pickup_C has a struct type mismatch (tag STRUCT_REINST_ItemData_20 != prop FallbackStruct) in package:  ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Actors/Pickup.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.10-05.31.22:557][  0]LogClass:Warning: Property ItemData of Pickup_C has a struct type mismatch (tag FallbackStruct != prop ItemData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.05.10-05.31.23:187][  0]LogMaterial: Missing cached shader map for material young_caucasian_male, compiling. 
+[2016.05.10-05.31.23:349][  0]LogMaterial: Missing cached shader map for material mhair02black, compiling. 
+[2016.05.10-05.31.23:378][  0]LogMaterial: Missing cached shader map for material Eye_brown, compiling. 
+[2016.05.10-05.31.23:531][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.10-05.31.23:552][  0]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.31.23:578][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.10-05.31.23:580][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.10-05.31.23:668][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.492ms to complete.
+[2016.05.10-05.31.23:668][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.417
+[2016.05.10-05.31.23:960][  0]LogCollectionManager: Loaded 0 collections in 0.003564 seconds
+[2016.05.10-05.31.24:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Collections/' took 0.01s
+[2016.05.10-05.31.24:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Developers/Matt/Collections/' took 0.01s
+[2016.05.10-05.31.24:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Collections/' took 0.01s
+[2016.05.10-05.31.24:050][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.05.10-05.31.24:069][  0]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 1980 classes and 345 folders.
+[2016.05.10-05.31.24:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.10-05.31.24:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.10-05.31.24:082][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.05.10-05.31.24:092][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.05.10-05.31.24:119][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.05.10-05.31.24:299][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.05.10-05.31.24:527][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.10-05.31.24:550][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.10-05.31.24:591][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.05.10-05.31.24:591][  0]LogLoad: Full Startup: 13.30 seconds (BP compile: 0.41 seconds)
+[2016.05.10-05.31.24:591][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.10-05.31.24:591][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.10-05.31.24:931][  0]LogOcInput: OculusInput pre-init called
+[2016.05.10-05.31.25:028][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.10-05.31.25:256][  0]LogRenderer: Reallocating scene render targets to support 968x408 (Frame:2).
+[2016.05.10-05.31.25:400][  1]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.31.25:400][  1]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.31.26:312][  2]LogAssetRegistry: Asset discovery search completed in 6.3971 seconds
+[2016.05.10-05.31.26:312][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.10-05.31.26:312][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000543 seconds (updated 0 objects)
+[2016.05.10-05.31.52:579][118]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\barbute.fbx)
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: NodeAttribute, ItemCount : 94
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: Model, ItemCount : 95
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: Deformer, ItemCount : 93
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: Material, ItemCount : 1
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: AnimationStack, ItemCount : 9
+[2016.05.10-05.31.52:641][118]LogFbx: ItemName: AnimationLayer, ItemCount : 9
+[2016.05.10-05.31.52:642][118]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2511
+[2016.05.10-05.31.52:642][118]LogFbx: ItemName: AnimationCurve, ItemCount : 7533
+[2016.05.10-05.31.52:653][118]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\barbute.fbx
+[2016.05.10-05.31.53:048][118]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.32.03:046][118]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\barbute.fbx
+[2016.05.10-05.32.03:462][118]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.32.03:489][118]LogFbx: =================================================
+[2016.05.10-05.32.03:489][118]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.32.03:489][118]LogFbx: 	Total Deformer Count -968539904.
+[2016.05.10-05.32.03:489][118]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.32.03:489][118]LogFbx: =================================================
+[2016.05.10-05.32.03:489][118]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.32.03:489][118]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.32.03:489][118]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.32.03:491][118]LogFbx: =================================================
+[2016.05.10-05.32.03:491][118]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.32.03:491][118]LogFbx: 	Total Deformer Count -968539960.
+[2016.05.10-05.32.03:491][118]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.32.03:491][118]LogFbx: =================================================
+[2016.05.10-05.32.03:491][118]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.32.03:491][118]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.32.03:491][118]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.32.03:496][118]LogFbx: Valid bind pose for Pose (Cylinder) - Cylinder
+[2016.05.10-05.32.03:502][118]LogLinker:Warning: Can't find file '/Game/Models/Barbute/Material_001'
+[2016.05.10-05.32.03:503][118]LogLinker:Warning: Can't find file '/Game/Models/Barbute/Material_001'
+[2016.05.10-05.32.03:509][118]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.10-05.32.03:520][118]LogFbx: Triangulating skeletal mesh Cylinder
+[2016.05.10-05.32.10:834][118]LogFbx:Warning: Bones digested - 112  Depth of hierarchy - 17
+[2016.05.10-05.32.11:689][118]LogSkeletalMesh: Chunk 0: 14470 rigid vertices, 0 soft vertices, 2 active bones
+[2016.05.10-05.32.11:740][118]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 28588 triangles
+[2016.05.10-05.32.11:773][118]LogLinker:Warning: Can't find file '/Game/Models/Barbute/barbute_PhysicsAsset'
+[2016.05.10-05.32.11:774][118]LogLinker:Warning: Can't find file '/Game/Models/Barbute/barbute_PhysicsAsset'
+[2016.05.10-05.32.11:774][118]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/Barbute/barbute_PhysicsAsset.barbute_PhysicsAsset'
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+toe_L_end_end  
+toe_R_end_end  
+f_pinky_03_R_end_end  
+f_middle_03_R_end_end  
+f_ring_03_R_end_end  
+thumb_03_R_end_end  
+f_index_03_R_end_end  
+f_pinky_03_L_end_end  
+f_index_03_L_end_end  
+f_ring_03_L_end_end  
+f_middle_03_L_end_end  
+thumb_03_L_end_end  
+tongue_tip_end_end  
+uplid_L_end_end  
+eye_R_end_end  
+eye_L_end_end  
+lolid_L_end_end  
+uplid_R_end_end  
+lolid_R_end_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Mesh 'Cylinder' has no UV set. Creating a default set. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.32.12:213][118]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.32.12:214][118]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.32.12:281][119]LogMaterial:Warning: Material /Game/Models/Barbute/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.10-05.32.12:306][119]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.10-05.32.12:328][119]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.20:915][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barbute/Ferrim" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Ferrim.uasset" SILENT=true
+[2016.05.10-05.32.20:929][ 18]LogSavePackage: Save=12.75ms
+[2016.05.10-05.32.20:929][ 18]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Ferrim381B26E84EC8F13ABEF228AD760C4CE6.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Ferrim.uasset'
+[2016.05.10-05.32.20:934][ 18]LogSavePackage: Total save time: 18.23ms
+[2016.05.10-05.32.20:934][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Ferrim.uasset
+[2016.05.10-05.32.20:966][ 18]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.10-05.32.22:838][228]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.22:983][228]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.22:996][228]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.23:026][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.10-05.32.26:302][441]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.32.26:302][441]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.32.26:302][441]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.32.37:284][681]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.37:297][681]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.39:759][852]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.39:774][852]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.41:265][963]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.41:284][963]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.44:056][146]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.44:076][146]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.44:108][146]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.10-05.32.44:212][153]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.44:233][153]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.44:258][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.10-05.32.46:866][335]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.46:885][335]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.32.50:562][597]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.32.50:562][597]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.32.50:562][597]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.32.57:173][309]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.32.57:186][309]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.00:528][553]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.33.00:528][553]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.33.00:528][553]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.33.03:065][834]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.03:078][834]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.06:339][ 75]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.33.06:339][ 75]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.33.06:339][ 75]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.33.10:136][485]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.10:150][485]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.13:404][728]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.33.13:405][728]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.33.13:405][728]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.33.16:105][ 29]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.16:119][ 29]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.19:398][274]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.33.19:398][274]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.33.19:398][274]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.33.26:989][ 81]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.27:002][ 81]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.30:332][328]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.33.30:332][328]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.33.30:332][328]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.33.32:804][599]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.32:818][599]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.32:903][605]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.32:922][605]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.34:255][703]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.34:276][703]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.34:722][725]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.10-05.33.34:766][725]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2016.05.10-05.33.34:846][725]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2016.05.10-05.33.34:848][725]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2016.05.10-05.33.37:455][902]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.33.37:455][902]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.33.37:455][902]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.33.39:978][171]LogMaterialEditor: Saving and Compiling material Ferrim
+[2016.05.10-05.33.40:534][171]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.40:559][171]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.40:609][171]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.40:651][171]LogMaterial: Missing cached shader map for material Ferrim, compiling. 
+[2016.05.10-05.33.40:680][171]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.33.47:627][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barbute/Ferrim" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Ferrim.uasset" SILENT=true
+[2016.05.10-05.33.47:649][171]LogSavePackage: Save=13.20ms
+[2016.05.10-05.33.47:649][171]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Ferrim84028B594AC1C99C6BC47DAEF7802331.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Ferrim.uasset'
+[2016.05.10-05.33.47:653][171]LogSavePackage: Total save time: 25.19ms
+[2016.05.10-05.33.47:653][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Ferrim.uasset
+[2016.05.10-05.33.47:659][171]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2016.05.10-05.33.47:659][171]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.33.47:659][171]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.10-05.33.51:656][580]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.05.10-05.33.51:746][581]LogRenderer: Reallocating scene render targets to support 968x700 (Frame:15046).
+[2016.05.10-05.34.34:353][636]LogSavePackage: Save=12.76ms
+[2016.05.10-05.34.34:353][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Attack_1H_Sword42E83A234210386180F23284B8615556.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Attack_1H_Sword.uasset'
+[2016.05.10-05.34.34:358][636]LogSavePackage: Total save time: 24.39ms
+[2016.05.10-05.34.34:358][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Attack_1H_Sword.uasset
+[2016.05.10-05.34.34:409][636]LogSavePackage: Save=14.35ms
+[2016.05.10-05.34.34:409][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Attack_1H_Sword_018D56B90A485C4D17D87044A0C6FA29C1.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Attack_1H_Sword_01.uasset'
+[2016.05.10-05.34.34:414][636]LogSavePackage: Total save time: 27.37ms
+[2016.05.10-05.34.34:414][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Attack_1H_Sword_01.uasset
+[2016.05.10-05.34.34:442][636]LogSavePackage: Save=3.55ms
+[2016.05.10-05.34.34:442][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_SkeletonE29BDEF64517BAA1814D4D88FC5073BE.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/player_model_Skeleton.uasset'
+[2016.05.10-05.34.34:446][636]LogSavePackage: Total save time: 16.09ms
+[2016.05.10-05.34.34:446][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/player_model_Skeleton.uasset
+[2016.05.10-05.34.34:501][636]LogSavePackage: Save=16.14ms
+[2016.05.10-05.34.34:501][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Attack_1H_Sword_02C142EF97472A4274DAA847866FBA6D46.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Attack_1H_Sword_02.uasset'
+[2016.05.10-05.34.34:507][636]LogSavePackage: Total save time: 33.02ms
+[2016.05.10-05.34.34:507][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Attack_1H_Sword_02.uasset
+[2016.05.10-05.34.34:565][636]LogSavePackage: Save=16.52ms
+[2016.05.10-05.34.34:565][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Jump_beginD53208764676E2AAF78019A8F6B8FB7F.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Jump_begin.uasset'
+[2016.05.10-05.34.34:571][636]LogSavePackage: Total save time: 33.54ms
+[2016.05.10-05.34.34:571][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Jump_begin.uasset
+[2016.05.10-05.34.34:640][636]LogSavePackage: Save=20.39ms
+[2016.05.10-05.34.34:640][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Jump_loopCE70B30A42BEC7FF8B1C06A5FA6ACF34.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Jump_loop.uasset'
+[2016.05.10-05.34.34:645][636]LogSavePackage: Total save time: 40.41ms
+[2016.05.10-05.34.34:645][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Jump_loop.uasset
+[2016.05.10-05.34.34:729][636]LogSavePackage: Save=21.97ms
+[2016.05.10-05.34.34:729][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Running_AggressiveE12066B844E264384750B198193A28EB.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Running_Aggressive.uasset'
+[2016.05.10-05.34.34:734][636]LogSavePackage: Total save time: 38.47ms
+[2016.05.10-05.34.34:734][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Running_Aggressive.uasset
+[2016.05.10-05.34.34:790][636]LogSavePackage: Save=16.68ms
+[2016.05.10-05.34.34:790][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Backward_RunA74460D04FF963105C322094CFF8C660.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Backward_Run.uasset'
+[2016.05.10-05.34.34:795][636]LogSavePackage: Total save time: 32.27ms
+[2016.05.10-05.34.34:795][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Backward_Run.uasset
+[2016.05.10-05.34.34:859][636]LogSavePackage: Save=19.50ms
+[2016.05.10-05.34.34:859][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Forward_Run0E1D70BD4953E027E3CC2FBA3FC3190C.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Forward_Run.uasset'
+[2016.05.10-05.34.34:865][636]LogSavePackage: Total save time: 37.59ms
+[2016.05.10-05.34.34:865][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Forward_Run.uasset
+[2016.05.10-05.34.34:928][636]LogSavePackage: Save=20.87ms
+[2016.05.10-05.34.34:928][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Idle_1h90C5BC19494C3E88324BACAE6B427F0C.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Idle_1h.uasset'
+[2016.05.10-05.34.34:934][636]LogSavePackage: Total save time: 37.67ms
+[2016.05.10-05.34.34:934][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Idle_1h.uasset
+[2016.05.10-05.34.34:994][636]LogSavePackage: Save=16.18ms
+[2016.05.10-05.34.34:994][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Left_Run962AAC0643DB7925B7141CB2C369EA1F.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Left_Run.uasset'
+[2016.05.10-05.34.34:999][636]LogSavePackage: Total save time: 34.12ms
+[2016.05.10-05.34.34:999][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Left_Run.uasset
+[2016.05.10-05.34.35:059][636]LogSavePackage: Save=19.59ms
+[2016.05.10-05.34.35:059][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Right_Run726D4AC24F7BEB52E5D6F5A2995AC03B.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Right_Run.uasset'
+[2016.05.10-05.34.35:063][636]LogSavePackage: Total save time: 38.53ms
+[2016.05.10-05.34.35:063][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Right_Run.uasset
+[2016.05.10-05.34.35:124][636]LogSavePackage: Save=22.87ms
+[2016.05.10-05.34.35:124][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Running_PassiveB6075A5F4EBFFD92CBA060A0EC1F81B6.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Running_Passive.uasset'
+[2016.05.10-05.34.35:129][636]LogSavePackage: Total save time: 40.56ms
+[2016.05.10-05.34.35:129][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Running_Passive.uasset
+[2016.05.10-05.34.35:190][636]LogSavePackage: Save=22.68ms
+[2016.05.10-05.34.35:190][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Idle_Passive3792A5BE413ECC090CB655B9741EDFD7.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Idle_Passive.uasset'
+[2016.05.10-05.34.35:194][636]LogSavePackage: Total save time: 38.68ms
+[2016.05.10-05.34.35:194][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Idle_Passive.uasset
+[2016.05.10-05.34.35:251][636]LogSavePackage: Save=14.13ms
+[2016.05.10-05.34.35:251][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Draw_1H_Sword7DCCA658471DDF9C32056CAE0BA15312.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Draw_1H_Sword.uasset'
+[2016.05.10-05.34.35:255][636]LogSavePackage: Total save time: 30.25ms
+[2016.05.10-05.34.35:255][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Draw_1H_Sword.uasset
+[2016.05.10-05.34.35:313][636]LogSavePackage: Save=15.63ms
+[2016.05.10-05.34.35:313][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Draw_1H_Sword3A69B8C14CB716D03848ADA0C8178E9D.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Draw_1H_Sword.uasset'
+[2016.05.10-05.34.35:318][636]LogSavePackage: Total save time: 34.95ms
+[2016.05.10-05.34.35:318][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Draw_1H_Sword.uasset
+[2016.05.10-05.34.35:367][636]LogSavePackage: Save=11.63ms
+[2016.05.10-05.34.35:367][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Sheathe_1H_Sword45D1151E4A51B6D7455B30B544FC7993.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Sheathe_1H_Sword.uasset'
+[2016.05.10-05.34.35:371][636]LogSavePackage: Total save time: 27.20ms
+[2016.05.10-05.34.35:371][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/Sheathe_1H_Sword.uasset
+[2016.05.10-05.34.35:425][636]LogSavePackage: Save=15.98ms
+[2016.05.10-05.34.35:425][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/player_model_Anim_player_Sheathe_1H_Sword9FC75AF140798BA7DA779A841D752C5A.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Sheathe_1H_Sword.uasset'
+[2016.05.10-05.34.35:430][636]LogSavePackage: Total save time: 31.01ms
+[2016.05.10-05.34.35:430][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Player_model/Animations/player_model_Anim_player_Sheathe_1H_Sword.uasset
+[2016.05.10-05.34.35:459][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barbute/barbute" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset" SILENT=true
+[2016.05.10-05.34.35:518][636]LogSavePackage: Save=57.45ms
+[2016.05.10-05.34.35:518][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbute72E1D05C4BADB6D1707800BE4C5CB172.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset'
+[2016.05.10-05.34.35:523][636]LogSavePackage: Total save time: 62.08ms
+[2016.05.10-05.34.35:523][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset
+[2016.05.10-05.34.35:535][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barbute/Material_001" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Material_001.uasset" SILENT=true
+[2016.05.10-05.34.35:541][636]LogSavePackage: Save=1.62ms
+[2016.05.10-05.34.35:541][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/Material_001122013104203ED239EA80AA813DC9855.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Material_001.uasset'
+[2016.05.10-05.34.35:544][636]LogSavePackage: Total save time: 6.29ms
+[2016.05.10-05.34.35:544][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/Material_001.uasset
+[2016.05.10-05.34.35:560][636]LogSavePackage: Save=6.20ms
+[2016.05.10-05.34.35:560][636]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbute_PhysicsAsset9A25B89049C7729EDFD5F39A9407EEC4.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute_PhysicsAsset.uasset'
+[2016.05.10-05.34.35:563][636]LogSavePackage: Total save time: 9.97ms
+[2016.05.10-05.34.35:563][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute_PhysicsAsset.uasset
+[2016.05.10-05.34.54:774][461]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.35.03:141][807]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\barbute.fbx)
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: NodeAttribute, ItemCount : 94
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: Model, ItemCount : 95
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: Deformer, ItemCount : 93
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: Material, ItemCount : 1
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: AnimationStack, ItemCount : 9
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: AnimationLayer, ItemCount : 9
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2511
+[2016.05.10-05.35.03:171][807]LogFbx: ItemName: AnimationCurve, ItemCount : 7533
+[2016.05.10-05.35.03:181][807]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\barbute.fbx
+[2016.05.10-05.35.03:620][807]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.35.17:412][807]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\barbute.fbx
+[2016.05.10-05.35.17:835][807]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.35.17:861][807]LogFbx: =================================================
+[2016.05.10-05.35.17:861][807]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.35.17:861][807]LogFbx: 	Total Deformer Count -1759043008.
+[2016.05.10-05.35.17:861][807]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.35.17:861][807]LogFbx: =================================================
+[2016.05.10-05.35.17:861][807]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.35.17:861][807]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.35.17:861][807]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.35.17:863][807]LogFbx: =================================================
+[2016.05.10-05.35.17:863][807]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.35.17:863][807]LogFbx: 	Total Deformer Count -1759038472.
+[2016.05.10-05.35.17:863][807]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.35.17:863][807]LogFbx: =================================================
+[2016.05.10-05.35.17:863][807]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.35.17:863][807]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.35.17:863][807]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.35.17:864][807]LogFbx: Valid bind pose for Pose (Cylinder) - Cylinder
+[2016.05.10-05.35.17:868][807]LogFbx: Triangulating skeletal mesh Cylinder
+[2016.05.10-05.35.24:813][807]LogFbx:Warning: Bones digested - 112  Depth of hierarchy - 17
+[2016.05.10-05.35.25:668][807]LogSkeletalMesh: Chunk 0: 14470 rigid vertices, 0 soft vertices, 2 active bones
+[2016.05.10-05.35.25:720][807]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 28588 triangles
+[2016.05.10-05.35.25:746][807]LogLinker:Warning: Can't find file '/Game/Models/Barbute/barbute_PhysicsAsset'
+[2016.05.10-05.35.25:746][807]LogLinker:Warning: Can't find file '/Game/Models/Barbute/barbute_PhysicsAsset'
+[2016.05.10-05.35.25:746][807]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/Barbute/barbute_PhysicsAsset.barbute_PhysicsAsset'
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+toe_L_end_end  
+toe_R_end_end  
+f_pinky_03_R_end_end  
+f_middle_03_R_end_end  
+f_ring_03_R_end_end  
+thumb_03_R_end_end  
+f_index_03_R_end_end  
+f_pinky_03_L_end_end  
+f_index_03_L_end_end  
+f_ring_03_L_end_end  
+f_middle_03_L_end_end  
+thumb_03_L_end_end  
+tongue_tip_end_end  
+uplid_L_end_end  
+eye_R_end_end  
+eye_L_end_end  
+lolid_L_end_end  
+uplid_R_end_end  
+lolid_R_end_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Mesh 'Cylinder' has no UV set. Creating a default set. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.35.26:279][807]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.35.26:280][807]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.35.29:499][127]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.05.10-05.36.39:570][450]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2016.05.10-05.36.46:955][253]LogSavePackage: Save=310.08ms
+[2016.05.10-05.36.46:955][253]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/ThirdPersonExampleMap2B3063224F83ACFD6CFB83A4B2CBD41C.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.10-05.36.46:961][253]LogSavePackage: Total save time: 341.38ms
+[2016.05.10-05.36.46:961][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.10-05.36.47:005][253]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.495
+[2016.05.10-05.36.47:017][253]LogSavePackage: Save=5.82ms
+[2016.05.10-05.36.47:017][253]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbute_PhysicsAsset22425F1040814ECF50C1F3AB2FFC5141.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute_PhysicsAsset.uasset'
+[2016.05.10-05.36.47:021][253]LogSavePackage: Total save time: 10.27ms
+[2016.05.10-05.36.47:021][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute_PhysicsAsset.uasset
+[2016.05.10-05.36.47:059][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barbute/barbute" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset" SILENT=true
+[2016.05.10-05.36.47:115][253]LogSavePackage: Save=53.74ms
+[2016.05.10-05.36.47:115][253]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbuteA7ED5D0440957FF9C6C6E6911A0CE9D1.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset'
+[2016.05.10-05.36.47:119][253]LogSavePackage: Total save time: 58.20ms
+[2016.05.10-05.36.47:119][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset
+[2016.05.10-05.37.01:547][897]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2016.05.10-05.37.11:857][ 97]LogEditorFactories: Performing atomic reimport of [C:/Users/Matt/Documents/GitHub/Otherworld2/Otherworld/barbute.fbx]
+[2016.05.10-05.37.11:895][ 97]LogFbx: Loading FBX Scene from C:/Users/Matt/Documents/GitHub/Otherworld2/Otherworld/barbute.fbx
+[2016.05.10-05.37.12:313][ 97]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.37.12:339][ 97]LogFbx: =================================================
+[2016.05.10-05.37.12:339][ 97]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.37.12:339][ 97]LogFbx: 	Total Deformer Count -940173768.
+[2016.05.10-05.37.12:339][ 97]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.37.12:339][ 97]LogFbx: =================================================
+[2016.05.10-05.37.12:339][ 97]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.37.12:339][ 97]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.37.12:339][ 97]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.37.12:341][ 97]LogFbx: =================================================
+[2016.05.10-05.37.12:341][ 97]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.37.12:341][ 97]LogFbx: 	Total Deformer Count -940173656.
+[2016.05.10-05.37.12:341][ 97]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.37.12:341][ 97]LogFbx: =================================================
+[2016.05.10-05.37.12:341][ 97]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.37.12:341][ 97]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.37.12:341][ 97]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.37.12:341][ 97]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.05.10-05.37.12:343][ 97]LogFbx: Valid bind pose for Pose (Cylinder) - Cylinder
+[2016.05.10-05.37.12:346][ 97]LogFbx:Warning: Warning The following bones are missing from the bind pose:
+toe_L_end_end  
+toe_R_end_end  
+f_pinky_03_R_end_end  
+f_middle_03_R_end_end  
+f_ring_03_R_end_end  
+thumb_03_R_end_end  
+f_index_03_R_end_end  
+f_pinky_03_L_end_end  
+f_index_03_L_end_end  
+f_ring_03_L_end_end  
+f_middle_03_L_end_end  
+thumb_03_L_end_end  
+tongue_tip_end_end  
+uplid_L_end_end  
+eye_R_end_end  
+eye_L_end_end  
+lolid_L_end_end  
+uplid_R_end_end  
+lolid_R_end_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh.
+[2016.05.10-05.37.12:347][ 97]LogFbx: Triangulating skeletal mesh Cylinder
+[2016.05.10-05.37.19:258][ 97]LogFbx:Warning: Warning Mesh 'Cylinder' has no UV set. Creating a default set.
+[2016.05.10-05.37.19:317][ 97]LogFbx:Warning: Bones digested - 112  Depth of hierarchy - 17
+[2016.05.10-05.37.20:226][ 97]LogSkeletalMesh: Chunk 0: 14470 rigid vertices, 0 soft vertices, 2 active bones
+[2016.05.10-05.37.20:277][ 97]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 28588 triangles
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 898. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 898. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 896. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 900. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 898. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 898. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 902. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 900. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 900. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 904. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 904. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 902. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 904. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 904. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 896. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 896. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 904. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 902. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 904. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 898. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 896. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 900. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 898. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 902. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 900. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 902. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 902. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 898. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1730. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1730. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1728. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1732. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1732. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1730. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1734. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1732. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1732. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1736. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1736. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1734. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1736. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1728. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1790. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1790. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1790. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1790. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1736. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1734. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1736. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1730. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1790. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1728. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1732. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1730. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1734. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1732. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1734. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1736. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1736. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1790. Weighting it to root.
+[2016.05.10-05.37.20:281][ 97]LogFbx:Warning: Warning Missing influence on vert 1730. Weighting it to root.
+[2016.05.10-05.37.20:304][ 97]LogEditorFactories: -- imported successfully
+[2016.05.10-05.37.42:845][105]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx)
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: NodeAttribute, ItemCount : 94
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: Model, ItemCount : 95
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: Deformer, ItemCount : 93
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: Material, ItemCount : 1
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: AnimationStack, ItemCount : 9
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: AnimationLayer, ItemCount : 9
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2511
+[2016.05.10-05.37.42:883][105]LogFbx: ItemName: AnimationCurve, ItemCount : 7533
+[2016.05.10-05.37.42:890][105]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx
+[2016.05.10-05.37.43:294][105]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.37.49:501][105]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx
+[2016.05.10-05.37.49:952][105]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.37.49:979][105]LogFbx: =================================================
+[2016.05.10-05.37.49:979][105]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.37.49:979][105]LogFbx: 	Total Deformer Count -722398928.
+[2016.05.10-05.37.49:979][105]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.37.49:979][105]LogFbx: =================================================
+[2016.05.10-05.37.49:979][105]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.37.49:979][105]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.37.49:979][105]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.37.49:981][105]LogFbx: =================================================
+[2016.05.10-05.37.49:981][105]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.37.49:981][105]LogFbx: 	Total Deformer Count -722397416.
+[2016.05.10-05.37.49:981][105]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.37.49:981][105]LogFbx: =================================================
+[2016.05.10-05.37.49:981][105]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.37.49:981][105]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.37.49:981][105]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.37.49:984][105]LogFbx: Valid bind pose for Pose (Cylinder) - Cylinder
+[2016.05.10-05.37.49:988][105]LogFbx: Triangulating skeletal mesh Cylinder
+[2016.05.10-05.37.56:891][105]LogFbx:Warning: Bones digested - 112  Depth of hierarchy - 17
+[2016.05.10-05.37.57:734][105]LogSkeletalMesh: Chunk 0: 14470 rigid vertices, 0 soft vertices, 2 active bones
+[2016.05.10-05.37.57:784][105]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 28588 triangles
+[2016.05.10-05.37.57:813][105]LogLinker:Warning: Can't find file '/Game/Models/barbute_PhysicsAsset'
+[2016.05.10-05.37.57:813][105]LogLinker:Warning: Can't find file '/Game/Models/barbute_PhysicsAsset'
+[2016.05.10-05.37.57:813][105]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/barbute_PhysicsAsset.barbute_PhysicsAsset'
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+toe_L_end_end  
+toe_R_end_end  
+f_pinky_03_R_end_end  
+f_middle_03_R_end_end  
+f_ring_03_R_end_end  
+thumb_03_R_end_end  
+f_index_03_R_end_end  
+f_pinky_03_L_end_end  
+f_index_03_L_end_end  
+f_ring_03_L_end_end  
+f_middle_03_L_end_end  
+thumb_03_L_end_end  
+tongue_tip_end_end  
+uplid_L_end_end  
+eye_R_end_end  
+eye_L_end_end  
+lolid_L_end_end  
+uplid_R_end_end  
+lolid_R_end_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Mesh 'Cylinder' has no UV set. Creating a default set. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.37.58:522][105]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.37.58:523][105]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.38.08:765][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barbute/barbute" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset" SILENT=true
+[2016.05.10-05.38.08:810][254]LogSavePackage: Save=43.16ms
+[2016.05.10-05.38.08:810][254]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbuteCF9D0755445E2BFA38776485E198D9D6.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset'
+[2016.05.10-05.38.08:813][254]LogSavePackage: Total save time: 47.02ms
+[2016.05.10-05.38.08:813][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute.uasset
+[2016.05.10-05.38.08:826][254]LogSavePackage: Save=6.11ms
+[2016.05.10-05.38.08:826][254]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbute_PhysicsAssetC27669D243FC2E821F3FBCA4FA5C5CB6.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute_PhysicsAsset.uasset'
+[2016.05.10-05.38.08:830][254]LogSavePackage: Total save time: 9.89ms
+[2016.05.10-05.38.08:830][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Barbute/barbute_PhysicsAsset.uasset
+[2016.05.10-05.38.11:269][511]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2016.05.10-05.38.39:315][230]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx)
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: NodeAttribute, ItemCount : 94
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: Model, ItemCount : 95
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: Deformer, ItemCount : 93
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: Material, ItemCount : 1
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: AnimationStack, ItemCount : 9
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: AnimationLayer, ItemCount : 9
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2511
+[2016.05.10-05.38.39:336][230]LogFbx: ItemName: AnimationCurve, ItemCount : 7533
+[2016.05.10-05.38.39:345][230]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx
+[2016.05.10-05.38.39:766][230]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.38.44:345][230]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx
+[2016.05.10-05.38.44:787][230]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.38.44:814][230]LogFbx:Warning: Triangulating static mesh Cylinder
+[2016.05.10-05.38.51:738][230]LogStaticMesh: Building static mesh barbute...
+[2016.05.10-05.38.52:388][230]LogStaticMesh: Built static mesh [0.65s] /Game/Models/Barbute/barbute.barbute
+[2016.05.10-05.38.53:355][230]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.10-05.38.56:936][620]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2016.05.10-05.38.57:007][620]LogRenderer: Reallocating scene render targets to support 1192x744 (Frame:43690).
+[2016.05.10-05.39.13:315][513]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\helm1.fbx)
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: NodeAttribute, ItemCount : 96
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: Model, ItemCount : 97
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: Deformer, ItemCount : 93
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: Material, ItemCount : 2
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: AnimationStack, ItemCount : 9
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: AnimationLayer, ItemCount : 9
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2511
+[2016.05.10-05.39.13:347][513]LogFbx: ItemName: AnimationCurve, ItemCount : 7533
+[2016.05.10-05.39.13:355][513]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\helm1.fbx
+[2016.05.10-05.39.13:783][513]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.39.29:398][658]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx)
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: NodeAttribute, ItemCount : 94
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: Model, ItemCount : 95
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: Deformer, ItemCount : 93
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: Material, ItemCount : 1
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: AnimationStack, ItemCount : 9
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: AnimationLayer, ItemCount : 9
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2511
+[2016.05.10-05.39.29:411][658]LogFbx: ItemName: AnimationCurve, ItemCount : 7533
+[2016.05.10-05.39.29:419][658]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx
+[2016.05.10-05.39.29:886][658]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.39.36:366][658]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\barbute.fbx
+[2016.05.10-05.39.36:847][658]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.39.36:874][658]LogFbx: =================================================
+[2016.05.10-05.39.36:874][658]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.39.36:874][658]LogFbx: 	Total Deformer Count -912771264.
+[2016.05.10-05.39.36:874][658]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.39.36:874][658]LogFbx: =================================================
+[2016.05.10-05.39.36:874][658]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.39.36:874][658]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.39.36:874][658]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.39.36:876][658]LogFbx: =================================================
+[2016.05.10-05.39.36:876][658]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.10-05.39.36:876][658]LogFbx: 	Total Deformer Count -912785096.
+[2016.05.10-05.39.36:876][658]LogFbx: 		[Node 1] Player (Type Skin).
+[2016.05.10-05.39.36:876][658]LogFbx: =================================================
+[2016.05.10-05.39.36:876][658]LogFbx: 	Attribute (Cylinder) Type (4).
+[2016.05.10-05.39.36:876][658]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.10-05.39.36:876][658]LogFbx: Dumping Node END [Cylinder]
+[2016.05.10-05.39.36:877][658]LogFbx: Valid bind pose for Pose (Cylinder) - Cylinder
+[2016.05.10-05.39.36:881][658]LogFbx: Triangulating skeletal mesh Cylinder
+[2016.05.10-05.39.44:015][658]LogFbx:Warning: Bones digested - 112  Depth of hierarchy - 17
+[2016.05.10-05.39.44:871][658]LogSkeletalMesh: Chunk 0: 14470 rigid vertices, 0 soft vertices, 2 active bones
+[2016.05.10-05.39.44:932][658]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 28588 triangles
+[2016.05.10-05.39.44:955][658]LogLinker:Warning: Can't find file '/Game/Models/Barbute/barbute_PhysicsAsset'
+[2016.05.10-05.39.44:955][658]LogLinker:Warning: Can't find file '/Game/Models/Barbute/barbute_PhysicsAsset'
+[2016.05.10-05.39.44:955][658]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/Barbute/barbute_PhysicsAsset.barbute_PhysicsAsset'
+[2016.05.10-05.39.46:231][658]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.10-05.39.46:231][658]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+toe_L_end_end  
+toe_R_end_end  
+f_pinky_03_R_end_end  
+f_middle_03_R_end_end  
+f_ring_03_R_end_end  
+thumb_03_R_end_end  
+f_index_03_R_end_end  
+f_pinky_03_L_end_end  
+f_index_03_L_end_end  
+f_ring_03_L_end_end  
+f_middle_03_L_end_end  
+thumb_03_L_end_end  
+tongue_tip_end_end  
+uplid_L_end_end  
+eye_R_end_end  
+eye_L_end_end  
+lolid_L_end_end  
+uplid_R_end_end  
+lolid_R_end_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.05.10-05.39.46:231][658]FBXImport:Warning: Warning Mesh 'Cylinder' has no UV set. Creating a default set. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 904. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 896. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 900. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 902. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 898. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.39.46:232][658]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1728. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1732. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1734. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1736. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1790. Weighting it to root. 
+[2016.05.10-05.39.46:233][658]FBXImport:Warning: Warning Missing influence on vert 1730. Weighting it to root. 
+[2016.05.10-05.39.49:551][737]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2016.05.10-05.40.40:618][680]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\RoundShield1.fbx)
+[2016.05.10-05.40.40:628][680]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.40.40:628][680]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.05.10-05.40.40:628][680]LogFbx: ItemName: Model, ItemCount : 2
+[2016.05.10-05.40.40:628][680]LogFbx: ItemName: Material, ItemCount : 2
+[2016.05.10-05.40.40:637][680]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\RoundShield1.fbx
+[2016.05.10-05.40.40:721][680]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.40.44:814][680]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\RoundShield1.fbx
+[2016.05.10-05.40.44:902][680]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.40.44:905][680]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2016.05.10-05.40.45:021][680]LogFbx:Warning: Triangulating static mesh Cylinder
+[2016.05.10-05.40.45:042][680]LogStaticMesh: Building static mesh RoundShield1...
+[2016.05.10-05.40.45:057][680]LogStaticMesh: Built static mesh [0.02s] /Game/Models/RoundShield/RoundShield1.RoundShield1
+[2016.05.10-05.40.45:067][680]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.10-05.41.42:802][893]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\VanianKiteShield.fbx)
+[2016.05.10-05.41.42:815][893]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.10-05.41.42:815][893]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.05.10-05.41.42:815][893]LogFbx: ItemName: Model, ItemCount : 2
+[2016.05.10-05.41.42:815][893]LogFbx: ItemName: Material, ItemCount : 2
+[2016.05.10-05.41.42:822][893]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\VanianKiteShield.fbx
+[2016.05.10-05.41.42:905][893]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.41.56:898][893]LogFbx: Loading FBX Scene from C:\Users\Matt\Documents\GitHub\Otherworld2\Otherworld\Models\VanianKiteShield.fbx
+[2016.05.10-05.41.56:982][893]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.10-05.41.56:986][893]LogLinker:Warning: Can't find file '/Game/Models/ShieldFront'
+[2016.05.10-05.41.56:986][893]LogLinker:Warning: Can't find file '/Game/Models/ShieldFront'
+[2016.05.10-05.41.56:995][893]LogMaterial: Missing cached shader map for material ShieldFront, compiling. 
+[2016.05.10-05.41.57:005][893]LogFbx:Warning: Triangulating static mesh Cube.001
+[2016.05.10-05.41.57:027][893]LogLinker:Warning: Can't find file '/Game/Models/Metal'
+[2016.05.10-05.41.57:027][893]LogLinker:Warning: Can't find file '/Game/Models/Metal'
+[2016.05.10-05.41.57:034][893]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.41.57:050][893]LogFbx:Warning: Triangulating static mesh Cube
+[2016.05.10-05.41.57:093][893]LogStaticMesh: Building static mesh VanianKiteShield...
+[2016.05.10-05.41.57:100][893]LogStaticMesh: Built static mesh [0.01s] /Game/Models/VanianKiteShield.VanianKiteShield
+[2016.05.10-05.41.57:111][893]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.10-05.42.11:438][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/barbute_PhysicsAsset" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/barbute_PhysicsAsset.uasset" SILENT=true
+[2016.05.10-05.42.11:441][ 54]LogSavePackage: Save=1.38ms
+[2016.05.10-05.42.11:441][ 54]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbute_PhysicsAssetDC4C341D4D650A108EB9EFBB6F8D546D.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/barbute_PhysicsAsset.uasset'
+[2016.05.10-05.42.11:444][ 54]LogSavePackage: Total save time: 5.05ms
+[2016.05.10-05.42.11:444][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/barbute_PhysicsAsset.uasset
+[2016.05.10-05.42.11:449][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/barbute" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/barbute.uasset" SILENT=true
+[2016.05.10-05.42.11:452][ 54]LogSavePackage: Save=1.31ms
+[2016.05.10-05.42.11:452][ 54]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/barbuteC384A83E48B49F20BCC39BAC09B7ABCC.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/barbute.uasset'
+[2016.05.10-05.42.11:455][ 54]LogSavePackage: Total save time: 5.08ms
+[2016.05.10-05.42.11:455][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/barbute.uasset
+[2016.05.10-05.42.11:477][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/VanianKiteShield" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/VanianKiteShield.uasset" SILENT=true
+[2016.05.10-05.42.11:490][ 54]LogSavePackage: Save=11.07ms
+[2016.05.10-05.42.11:490][ 54]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/VanianKiteShield199C9EF349B906C7263AED9824D267CC.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/VanianKiteShield.uasset'
+[2016.05.10-05.42.11:496][ 54]LogSavePackage: Total save time: 17.05ms
+[2016.05.10-05.42.11:496][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/VanianKiteShield.uasset
+[2016.05.10-05.42.11:520][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ShieldFront" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/ShieldFront.uasset" SILENT=true
+[2016.05.10-05.42.11:534][ 54]LogSavePackage: Save=11.58ms
+[2016.05.10-05.42.11:534][ 54]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/ShieldFrontF489A61941FD11A842421997170C80C7.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/ShieldFront.uasset'
+[2016.05.10-05.42.11:539][ 54]LogSavePackage: Total save time: 17.40ms
+[2016.05.10-05.42.11:539][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/ShieldFront.uasset
+[2016.05.10-05.42.11:564][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Metal" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Metal.uasset" SILENT=true
+[2016.05.10-05.42.11:578][ 54]LogSavePackage: Save=12.26ms
+[2016.05.10-05.42.11:578][ 54]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/MetalC6EF049C4325829FD1F15E8F51EA4249.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Metal.uasset'
+[2016.05.10-05.42.11:581][ 54]LogSavePackage: Total save time: 16.36ms
+[2016.05.10-05.42.11:581][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/Metal.uasset
+[2016.05.10-05.42.14:220][316]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.14:320][316]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.14:327][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.14:354][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.10-05.42.15:278][362]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.42.15:278][362]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.42.15:278][362]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.42.18:377][608]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.18:384][608]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.18:410][608]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.10-05.42.18:736][629]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.18:743][629]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.18:773][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.10-05.42.19:745][685]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.42.19:745][685]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.42.19:745][685]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.42.20:735][758]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.20:741][758]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.20:769][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.10-05.42.21:011][773]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.21:023][773]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.21:048][773]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.10-05.42.21:987][827]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.42.21:987][827]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.42.21:987][827]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.42.27:266][268]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.27:272][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.27:275][268]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.27:281][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.28:168][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.42.28:168][321]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.42.28:168][321]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.42.31:157][572]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.31:164][572]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.32:236][638]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.42.32:236][638]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.42.32:236][638]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.42.34:293][793]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.34:300][793]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.34:341][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.10-05.42.34:800][822]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.34:810][822]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.34:842][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.10-05.42.35:767][874]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.10-05.42.35:767][874]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.10-05.42.35:767][874]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.10-05.42.41:630][136]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.41:648][136]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.41:684][136]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.41:711][136]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2016.05.10-05.42.41:726][136]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.10-05.42.50:207][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/VanianKiteShield" FILE="../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/VanianKiteShield.uasset" SILENT=true
+[2016.05.10-05.42.50:229][875]LogSavePackage: Save=12.16ms
+[2016.05.10-05.42.50:229][875]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/VanianKiteShield576EA7E74917FE0CCB8791BABB1AE6AD.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/VanianKiteShield.uasset'
+[2016.05.10-05.42.50:233][875]LogSavePackage: Total save time: 25.29ms
+[2016.05.10-05.42.50:233][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/Models/VanianKiteShield.uasset
+[2016.05.10-05.43.17:426][618]LogActorFactory: Actor Factory created VanianKiteShield
+[2016.05.10-05.43.18:228][701]LogActorFactory: Actor Factory created VanianKiteShield
+[2016.05.10-05.43.30:023][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.43.30:023][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.10-05.43.30:027][ 92]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 8:43:30 PM)
+[2016.05.10-05.43.30:027][ 92]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.10-05.43.30:061][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033591s)
+[2016.05.10-05.43.30:063][ 92]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.10-05.43.30:063][ 92]LogPlayLevel: PIE: World Init took: (0.001594s)
+[2016.05.10-05.43.30:063][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035574s)
+[2016.05.10-05.43.30:099][ 92]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.10-05.43.30:115][ 92]LogInit: FAudioDevice initialized.
+[2016.05.10-05.43.30:260][ 92]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.10-05.43.30:265][ 92]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.43.30:266][ 92]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.10-01.43.30
+[2016.05.10-05.43.30:268][ 92]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.43.30:269][ 92]LogWorld: Bringing up level for play took: 0.006923
+[2016.05.10-05.43.30:278][ 92]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.05.10-05.43.30:289][ 92]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.22
+[2016.05.10-05.43.30:289][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.43.33:065][416]Cmd: LevelEditor.ToggleImmersive
+[2016.05.10-05.43.33:240][418]LogRenderer: Reallocating scene render targets to support 1600x860 (Frame:66637).
+[2016.05.10-05.43.40:084][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.43.40:166][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.43.42:258][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.10-05.43.49:654][941]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_33' or package '/Engine/Transient'.
+[2016.05.10-05.43.49:654][941]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.43.55:107][227]LogSavePackage: Save=325.82ms
+[2016.05.10-05.43.55:107][227]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/ThirdPersonExampleMapAD88892A4BDF0F9EB139159655620895.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.10-05.43.55:113][227]LogSavePackage: Total save time: 355.03ms
+[2016.05.10-05.43.55:113][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.10-05.43.55:158][227]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.504
+[2016.05.10-05.44.27:125][ 28]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.44.27:125][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.10-05.44.27:125][ 28]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 8:44:27 PM)
+[2016.05.10-05.44.27:125][ 28]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.10-05.44.27:159][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033848s)
+[2016.05.10-05.44.27:160][ 28]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.10-05.44.27:161][ 28]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2016.05.10-05.44.27:161][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035556s)
+[2016.05.10-05.44.27:191][ 28]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.10-05.44.27:205][ 28]LogInit: FAudioDevice initialized.
+[2016.05.10-05.44.27:236][ 28]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.10-05.44.27:241][ 28]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.44.27:242][ 28]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.10-01.44.27
+[2016.05.10-05.44.27:242][ 28]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.44.27:242][ 28]LogWorld: Bringing up level for play took: 0.004827
+[2016.05.10-05.44.27:251][ 28]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.182
+[2016.05.10-05.44.27:251][ 28]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.44.28:189][137]Cmd: LevelEditor.ToggleImmersive
+[2016.05.10-05.44.37:183][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.44.37:256][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.45.05:720][515]LogEditorFactories: Performing atomic reimport of [C:/Users/Matt/Documents/Crosshair.png]
+[2016.05.10-05.45.05:720][515]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matt/Documents/Crosshair.png)
+[2016.05.10-05.45.05:729][515]LogTexture:Display: Building textures: RpgCrosshair (AutoDXT)
+[2016.05.10-05.45.05:785][515]LogEditorFactories: -- imported successfully
+[2016.05.10-05.45.07:750][724]LogSavePackage: Save=17.30ms
+[2016.05.10-05.45.07:750][724]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Saved/RpgCrosshair3A6D75D94111A8897455D4AF2F4D96BE.tmp' to '../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/UserInterface/Images/RpgCrosshair.uasset'
+[2016.05.10-05.45.07:755][724]LogSavePackage: Total save time: 30.74ms
+[2016.05.10-05.45.07:755][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/Otherworld/Otherworld/Content/UserInterface/Images/RpgCrosshair.uasset
+[2016.05.10-05.45.08:650][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.45.08:650][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.10-05.45.08:650][823]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 8:45:08 PM)
+[2016.05.10-05.45.08:650][823]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.10-05.45.08:683][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032844s)
+[2016.05.10-05.45.08:684][823]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.10-05.45.08:684][823]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2016.05.10-05.45.08:684][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034584s)
+[2016.05.10-05.45.08:718][823]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.10-05.45.08:732][823]LogInit: FAudioDevice initialized.
+[2016.05.10-05.45.08:762][823]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.10-05.45.08:767][823]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.45.08:768][823]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.10-01.45.08
+[2016.05.10-05.45.08:768][823]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.45.08:768][823]LogWorld: Bringing up level for play took: 0.004931
+[2016.05.10-05.45.08:776][823]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.292
+[2016.05.10-05.45.08:776][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.45.10:316][  4]Cmd: LevelEditor.ToggleImmersive
+[2016.05.10-05.45.21:169][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.45.21:243][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.45.23:158][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2016.05.10-05.45.24:552][642]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.10-05.46.27:073][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.46.27:073][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.10-05.46.27:073][907]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2016, 8:46:27 PM)
+[2016.05.10-05.46.27:073][907]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.10-05.46.27:109][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035569s)
+[2016.05.10-05.46.27:110][907]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.10-05.46.27:110][907]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2016.05.10-05.46.27:110][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037555s)
+[2016.05.10-05.46.27:151][907]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.10-05.46.27:167][907]LogInit: FAudioDevice initialized.
+[2016.05.10-05.46.27:195][907]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.10-05.46.27:200][907]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.46.27:201][907]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.10-01.46.27
+[2016.05.10-05.46.27:201][907]AnimBlueprint:Warning: Warning SLOTNODE: 'DefaultSlot' in animation instance class PlayerAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2016.05.10-05.46.27:201][907]LogWorld: Bringing up level for play took: 0.004898
+[2016.05.10-05.46.27:209][907]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.141
+[2016.05.10-05.46.27:209][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.47.25:010][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.47.25:055][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.10-05.55.55:103][601]Cmd: QUIT_EDITOR
+[2016.05.10-05.55.58:498][601]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.10-05.55.58:560][601]LogExit: Preparing to exit.
+[2016.05.10-05.55.59:194][601]LogExit: Editor shut down
+[2016.05.10-05.55.59:195][601]LogExit: Transaction tracking system shut down
+[2016.05.10-05.55.59:404][601]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.10-05.55.59:405][601]LogExit: Object subsystem successfully closed.
+[2016.05.10-05.55.59:422][601]LogD3D11RHI: Shutdown
+[2016.05.10-05.55.59:422][601]LogD3D11RHI: CleanupD3DDevice
+[2016.05.10-05.55.59:519][601]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.10-05.55.59:597][601]LogDerivedDataCache: Shutdown
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module TextureEditor (208)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (206)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module MaterialEditor (205)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module SuperSearch (202)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module WidgetCarousel (201)
+[2016.05.10-05.55.59:605][601]LogModuleManager: Shutting down and abandoning module AddContentDialog (200)
+[2016.05.10-05.55.59:609][601]LogModuleManager: Shutting down and abandoning module GameplayTags (199)
+[2016.05.10-05.55.59:609][601]LogModuleManager: Shutting down and abandoning module EditorWidgets (198)
+[2016.05.10-05.55.59:610][601]LogModuleManager: Shutting down and abandoning module CollectionManager (197)
+[2016.05.10-05.55.59:610][601]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.05.10-05.55.59:610][601]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.10-05.55.59:611][601]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.10-05.55.59:612][601]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.10-05.55.59:613][601]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.10-05.55.59:614][601]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.10-05.55.59:614][601]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.10-05.55.59:614][601]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.10-05.55.59:614][601]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.10-05.55.59:932][601]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.10-05.55.59:932][601]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.10-05.55.59:932][601]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.10-05.55.59:932][601]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.10-05.55.59:932][601]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.10-05.55.59:932][601]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.10-05.55.59:932][601]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.10-05.55.59:933][601]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.10-05.55.59:933][601]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.10-05.55.59:933][601]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.10-05.55.59:933][601]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.10-05.55.59:934][601]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.10-05.55.59:934][601]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.10-05.55.59:934][601]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.10-05.55.59:934][601]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.10-05.55.59:934][601]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.10-05.55.59:934][601]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.10-05.55.59:934][601]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.10-05.55.59:935][601]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.10-05.55.59:935][601]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.10-05.55.59:935][601]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.10-05.55.59:936][601]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.10-05.55.59:937][601]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.10-05.55.59:938][601]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.10-05.55.59:938][601]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.10-05.55.59:971][601]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.10-05.55.59:971][601]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.10-05.55.59:973][601]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.10-05.55.59:974][601]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.10-05.55.59:974][601]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.10-05.55.59:974][601]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.10-05.55.59:974][601]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.10-05.55.59:974][601]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.10-05.55.59:974][601]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.10-05.55.59:974][601]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.10-05.55.59:975][601]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.10-05.55.59:975][601]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.10-05.55.59:976][601]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.10-05.56.00:213][601]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.10-05.56.00:217][601]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.10-05.56.00:218][601]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.10-05.56.00:218][601]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.10-05.56.00:218][601]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.10-05.56.00:218][601]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.10-05.56.00:219][601]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.10-05.56.00:220][601]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.10-05.56.00:220][601]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.10-05.56.00:222][601]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.10-05.56.00:228][601]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.10-05.56.00:421][601]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.10-05.56.00:422][601]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.10-05.56.00:422][601]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.10-05.56.00:523][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.10-05.56.00:523][601]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.10-05.56.00:523][601]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.10-05.56.00:523][601]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.10-05.56.00:523][601]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.10-05.56.00:524][601]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.10-05.56.00:524][601]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.10-05.56.00:524][601]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.10-05.56.00:524][601]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.10-05.56.00:524][601]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.10-05.56.00:524][601]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.10-05.56.00:524][601]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.10-05.56.00:525][601]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.10-05.56.00:525][601]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.10-05.56.00:526][601]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.10-05.56.00:526][601]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.10-05.56.00:526][601]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.10-05.56.00:527][601]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.10-05.56.00:527][601]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.10-05.56.00:528][601]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.10-05.56.00:528][601]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.10-05.56.00:529][601]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.10-05.56.00:529][601]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.10-05.56.00:536][601]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.10-05.56.00:538][601]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.10-05.56.00:538][601]LogDerivedDataCache: Shutdown
+[2016.05.10-05.56.00:538][601]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.10-05.56.00:539][601]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.10-05.56.00:539][601]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.10-05.56.00:540][601]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.10-05.56.00:541][601]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.10-05.56.02:545][601]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.10-05.56.02:550][601]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.10-05.56.02:551][601]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.10-05.56.02:551][601]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.10-05.56.02:551][601]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.10-05.56.02:551][601]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.10-05.56.02:551][601]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.10-05.56.02:568][601]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.10-05.56.02:570][601]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.10-05.56.02:572][601]LogExit: Exiting.
+[2016.05.10-05.56.02:597][601]Log file closed, 05/10/16 01:56:02
